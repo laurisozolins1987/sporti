@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">Sportiņš</string>
+    <string name="greeting">Hey, Champ!</string>
+    <string name="subtitle_ready">Ready to crush it today?</string>
+
+    <!-- Sport types -->
+    <string name="morning_routine">Morning Routine</string>
+    <string name="evening_stretch">Evening Stretch</string>
+    <string name="free_workout">Free Workout</string>
+    <string name="sport_running">Running</string>
+    <string name="sport_yoga">Yoga</string>
+    <string name="sport_hiit">HIIT</string>
+    <string name="sport_strength">Strength</string>
+    <string name="sport_cardio">Cardio</string>
+    <string name="sport_boxing">Boxing</string>
+    <string name="sport_flexibility">Flexibility</string>
+    <string name="sport_core">Core</string>
+    <string name="sport_cycling">Cycling</string>
+    <string name="sport_swimming">Swimming</string>
+
+    <!-- Dashboard -->
+    <string name="all_workouts">All Workouts</string>
+    <string name="featured">FEATURED</string>
+    <string name="exercises_label">exercises</string>
+    <string name="minutes">min</string>
+    <string name="stat_workouts">Workouts</string>
+    <string name="stat_weight">Weight</string>
+    <string name="stat_streak">Streak</string>
+
+    <!-- Weight tracker -->
+    <string name="weight_tracker">Weight Tracker</string>
+    <string name="current_weight">Current weight</string>
+    <string name="log_weight">Log New Weight</string>
+    <string name="save">Save</string>
+    <string name="kg">kg</string>
+    <string name="weight_empty_hint">Add at least 2 entries to see your chart</string>
+
+    <!-- Workout screen -->
+    <string name="exercise_counter">%1$d of %2$d</string>
+    <string name="start">START</string>
+    <string name="pause">PAUSE</string>
+    <string name="reset">Reset</string>
+    <string name="skip_exercise">Skip →</string>
+    <string name="workout_complete">Workout Complete!</string>
+    <string name="great_job">Great job! Keep it up 💪</string>
+    <string name="back_to_home">Back to Home</string>
+
+    <!-- Exercises - General -->
+    <string name="exercise_neck">Neck circles</string>
+    <string name="exercise_squats">Squats</string>
+    <string name="exercise_plank">Plank</string>
+    <string name="ex_neck_circles">Neck Circles</string>
+    <string name="ex_arm_circles">Arm Circles</string>
+    <string name="ex_jumping_jacks">Jumping Jacks</string>
+    <string name="ex_high_knees">High Knees</string>
+    <string name="ex_bodyweight_squats">Bodyweight Squats</string>
+    <string name="ex_lunges">Lunges</string>
+    <string name="ex_cat_cow_stretch">Cat-Cow Stretch</string>
+    <string name="ex_plank">Plank</string>
+
+    <!-- Exercises - Running -->
+    <string name="ex_warm_up_jog">Warm-up Jog</string>
+    <string name="ex_butt_kicks">Butt Kicks</string>
+    <string name="ex_sprint_intervals">Sprint Intervals</string>
+    <string name="ex_side_shuffle">Side Shuffle</string>
+    <string name="ex_cool_down_walk">Cool-down Walk</string>
+
+    <!-- Exercises - Yoga -->
+    <string name="ex_mountain_pose">Mountain Pose</string>
+    <string name="ex_downward_dog">Downward Dog</string>
+    <string name="ex_warrior_one">Warrior I</string>
+    <string name="ex_warrior_two">Warrior II</string>
+    <string name="ex_tree_pose">Tree Pose</string>
+    <string name="ex_cobra_pose">Cobra Pose</string>
+    <string name="ex_child_pose">Child\'s Pose</string>
+    <string name="ex_savasana">Savasana</string>
+
+    <!-- Exercises - HIIT -->
+    <string name="ex_burpees">Burpees</string>
+    <string name="ex_mountain_climbers">Mountain Climbers</string>
+    <string name="ex_jump_squats">Jump Squats</string>
+    <string name="ex_push_ups">Push-ups</string>
+    <string name="ex_plank_jacks">Plank Jacks</string>
+    <string name="ex_tuck_jumps">Tuck Jumps</string>
+    <string name="ex_bicycle_crunches">Bicycle Crunches</string>
+
+    <!-- Exercises - Strength -->
+    <string name="ex_tricep_dips">Tricep Dips</string>
+    <string name="ex_glute_bridge">Glute Bridge</string>
+    <string name="ex_superman">Superman</string>
+    <string name="ex_wall_sit">Wall Sit</string>
+
+    <!-- Exercises - Cardio -->
+    <string name="ex_skaters">Skaters</string>
+    <string name="ex_star_jumps">Star Jumps</string>
+    <string name="ex_box_step_ups">Box Step-ups</string>
+    <string name="ex_speed_skipping">Speed Skipping</string>
+
+    <!-- Exercises - Boxing -->
+    <string name="ex_jab_cross">Jab-Cross</string>
+    <string name="ex_hook_uppercut">Hook-Uppercut</string>
+    <string name="ex_bob_weave">Bob &amp; Weave</string>
+    <string name="ex_shadow_boxing">Shadow Boxing</string>
+    <string name="ex_boxing_footwork">Boxing Footwork</string>
+    <string name="ex_speed_punches">Speed Punches</string>
+    <string name="ex_defensive_drills">Defensive Drills</string>
+
+    <!-- Exercises - Flexibility -->
+    <string name="ex_hamstring_stretch">Hamstring Stretch</string>
+    <string name="ex_quad_stretch">Quad Stretch</string>
+    <string name="ex_hip_flexor_stretch">Hip Flexor Stretch</string>
+    <string name="ex_shoulder_stretch">Shoulder Stretch</string>
+    <string name="ex_seated_forward_fold">Seated Forward Fold</string>
+    <string name="ex_pigeon_pose">Pigeon Pose</string>
+
+    <!-- Exercises - Core -->
+    <string name="ex_russian_twists">Russian Twists</string>
+    <string name="ex_leg_raises">Leg Raises</string>
+    <string name="ex_dead_bug">Dead Bug</string>
+    <string name="ex_side_plank_left">Side Plank (Left)</string>
+    <string name="ex_side_plank_right">Side Plank (Right)</string>
+    <string name="ex_flutter_kicks">Flutter Kicks</string>
+
+    <!-- Exercises - Cycling -->
+    <string name="ex_warm_up_ride">Warm-up Ride</string>
+    <string name="ex_hill_climb_sim">Hill Climb Sim</string>
+    <string name="ex_endurance_ride">Endurance Ride</string>
+    <string name="ex_cool_down_ride">Cool-down Ride</string>
+
+    <!-- Exercises - Swimming -->
+    <string name="ex_freestyle_drills">Freestyle Drills</string>
+    <string name="ex_backstroke_drills">Backstroke Drills</string>
+    <string name="ex_treading_water">Treading Water</string>
+    <string name="ex_cool_down_swim">Cool-down Swim</string>
+    <string name="workout_morning_title">Morning Routine</string>
+</resources>

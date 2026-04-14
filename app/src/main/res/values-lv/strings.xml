@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">Sportiņš</string>
+    <string name="greeting">Sveiks, Čempion!</string>
+    <string name="subtitle_ready">Gatavs šodien trenēties?</string>
+
+    <!-- Sport types -->
+    <string name="morning_routine">Rīta rosme</string>
+    <string name="evening_stretch">Vakara stiepšanās</string>
+    <string name="free_workout">Brīvais treniņš</string>
+    <string name="sport_running">Skriešana</string>
+    <string name="sport_yoga">Joga</string>
+    <string name="sport_hiit">HIIT</string>
+    <string name="sport_strength">Spēks</string>
+    <string name="sport_cardio">Kardio</string>
+    <string name="sport_boxing">Bokss</string>
+    <string name="sport_flexibility">Elastība</string>
+    <string name="sport_core">Vēdera muskuļi</string>
+    <string name="sport_cycling">Riteņbraukšana</string>
+    <string name="sport_swimming">Peldēšana</string>
+
+    <!-- Dashboard -->
+    <string name="all_workouts">Visi treniņi</string>
+    <string name="featured">IETEICAMS</string>
+    <string name="exercises_label">vingrinājumi</string>
+    <string name="minutes">min</string>
+    <string name="stat_workouts">Treniņi</string>
+    <string name="stat_weight">Svars</string>
+    <string name="stat_streak">Sērija</string>
+
+    <!-- Weight tracker -->
+    <string name="weight_tracker">Svara mērījumi</string>
+    <string name="current_weight">Pašreizējais svars</string>
+    <string name="log_weight">Pievienot svaru</string>
+    <string name="save">Saglabāt</string>
+    <string name="kg">kg</string>
+    <string name="weight_empty_hint">Pievieno vismaz 2 ierakstus, lai redzētu grafiku</string>
+
+    <!-- Workout screen -->
+    <string name="exercise_counter">%1$d no %2$d</string>
+    <string name="start">SĀKT</string>
+    <string name="pause">PAUZE</string>
+    <string name="reset">Atjaunot</string>
+    <string name="skip_exercise">Izlaist →</string>
+    <string name="workout_complete">Treniņš pabeigts!</string>
+    <string name="great_job">Lielisks darbs! Turpini tā 💪</string>
+    <string name="back_to_home">Uz sākumu</string>
+
+    <!-- Exercises - General -->
+    <string name="exercise_neck">Kakla apļi</string>
+    <string name="exercise_squats">Pietupieni</string>
+    <string name="exercise_plank">Planka</string>
+    <string name="ex_neck_circles">Kakla apļi</string>
+    <string name="ex_arm_circles">Roku apļi</string>
+    <string name="ex_jumping_jacks">Zvaigžņu lēcieni</string>
+    <string name="ex_high_knees">Augstie ceļi</string>
+    <string name="ex_bodyweight_squats">Pietupieni</string>
+    <string name="ex_lunges">Izsoļi</string>
+    <string name="ex_cat_cow_stretch">Kaķa-govs stiepšanās</string>
+    <string name="ex_plank">Planka</string>
+
+    <!-- Exercises - Running -->
+    <string name="ex_warm_up_jog">Iesildīšanās skrējiens</string>
+    <string name="ex_butt_kicks">Papēžu sitieni</string>
+    <string name="ex_sprint_intervals">Sprinta intervāli</string>
+    <string name="ex_side_shuffle">Sānu pārvietošanās</string>
+    <string name="ex_cool_down_walk">Atdzišanas pastaiga</string>
+
+    <!-- Exercises - Yoga -->
+    <string name="ex_mountain_pose">Kalna poza</string>
+    <string name="ex_downward_dog">Zemā suņa poza</string>
+    <string name="ex_warrior_one">Karotājs I</string>
+    <string name="ex_warrior_two">Karotājs II</string>
+    <string name="ex_tree_pose">Koka poza</string>
+    <string name="ex_cobra_pose">Kobras poza</string>
+    <string name="ex_child_pose">Bērna poza</string>
+    <string name="ex_savasana">Šavasana</string>
+
+    <!-- Exercises - HIIT -->
+    <string name="ex_burpees">Bērpiji</string>
+    <string name="ex_mountain_climbers">Kalnu kāpēji</string>
+    <string name="ex_jump_squats">Lēcienu pietupieni</string>
+    <string name="ex_push_ups">Atspiedieni</string>
+    <string name="ex_plank_jacks">Plankas lēcieni</string>
+    <string name="ex_tuck_jumps">Ceļu lēcieni</string>
+    <string name="ex_bicycle_crunches">Velosipēda preses</string>
+
+    <!-- Exercises - Strength -->
+    <string name="ex_tricep_dips">Tricepsa atspiedieni</string>
+    <string name="ex_glute_bridge">Gūžu tilts</string>
+    <string name="ex_superman">Supermens</string>
+    <string name="ex_wall_sit">Sienas sēdēšana</string>
+
+    <!-- Exercises - Cardio -->
+    <string name="ex_skaters">Slidotāji</string>
+    <string name="ex_star_jumps">Zvaigžņu lēcieni</string>
+    <string name="ex_box_step_ups">Kastes kāpšana</string>
+    <string name="ex_speed_skipping">Ātrā lecināšana</string>
+
+    <!-- Exercises - Boxing -->
+    <string name="ex_jab_cross">Džebs-kross</string>
+    <string name="ex_hook_uppercut">Āķis-aperkots</string>
+    <string name="ex_bob_weave">Bobs un vīvs</string>
+    <string name="ex_shadow_boxing">Ēnu bokss</string>
+    <string name="ex_boxing_footwork">Boksa kustības</string>
+    <string name="ex_speed_punches">Ātrās sitieni</string>
+    <string name="ex_defensive_drills">Aizsardzības vingrinājumi</string>
+
+    <!-- Exercises - Flexibility -->
+    <string name="ex_hamstring_stretch">Cīpslu stiepšana</string>
+    <string name="ex_quad_stretch">Četrgalvu stiepšana</string>
+    <string name="ex_hip_flexor_stretch">Gūžas stiepšana</string>
+    <string name="ex_shoulder_stretch">Plecu stiepšana</string>
+    <string name="ex_seated_forward_fold">Sēdus priekšā locīšana</string>
+    <string name="ex_pigeon_pose">Baloža poza</string>
+
+    <!-- Exercises - Core -->
+    <string name="ex_russian_twists">Krievu griezieni</string>
+    <string name="ex_leg_raises">Kāju celšana</string>
+    <string name="ex_dead_bug">Mirušais vabole</string>
+    <string name="ex_side_plank_left">Sānu planka (kreisā)</string>
+    <string name="ex_side_plank_right">Sānu planka (labā)</string>
+    <string name="ex_flutter_kicks">Plandīšanas spērieni</string>
+
+    <!-- Exercises - Cycling -->
+    <string name="ex_warm_up_ride">Iesildīšanās brauciens</string>
+    <string name="ex_hill_climb_sim">Kalna kāpšanas sim.</string>
+    <string name="ex_endurance_ride">Izturības brauciens</string>
+    <string name="ex_cool_down_ride">Atdzišanas brauciens</string>
+
+    <!-- Exercises - Swimming -->
+    <string name="ex_freestyle_drills">Brīvā stila vingr.</string>
+    <string name="ex_backstroke_drills">Mugurpeldēšanas vingr.</string>
+    <string name="ex_treading_water">Ūdens mīdīšana</string>
+    <string name="ex_cool_down_swim">Atdzišanas peldēšana</string>
+    <string name="workout_morning_title">Rīta rosme</string>
+</resources>
