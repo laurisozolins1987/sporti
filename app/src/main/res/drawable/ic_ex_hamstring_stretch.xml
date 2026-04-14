@@ -1,0 +1,29 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Hamstring stretch: sitting, reaching for toes -->
+    <path android:pathData="M75,65m-10,0a10,10 0,1 1,20 0a10,10 0,1 1,-20 0"
+        android:fillColor="#26C6DA"/>
+    <!-- Body leaning forward -->
+    <path android:pathData="M80,73L110,90"
+        android:strokeColor="#26C6DA" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Arms reaching to toes -->
+    <path android:pathData="M95,82L140,100"
+        android:strokeColor="#26C6DA" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <!-- Legs extended -->
+    <path android:pathData="M110,95L155,100"
+        android:strokeColor="#26C6DA" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Foot -->
+    <path android:pathData="M155,100L160,95"
+        android:strokeColor="#26C6DA" android:strokeWidth="3" android:strokeLineCap="round"/>
+    <!-- Ground -->
+    <path android:pathData="M60,105L170,105"
+        android:strokeColor="#80DEEA" android:strokeWidth="2" android:strokeLineCap="round"/>
+    <!-- Stretch arrow -->
+    <path android:pathData="M120,78L138,88"
+        android:strokeColor="#80DEEA" android:strokeWidth="3" android:strokeLineCap="round"/>
+    <path android:pathData="M138,88L132,83"
+        android:strokeColor="#80DEEA" android:strokeWidth="3" android:strokeLineCap="round"/>
+</vector>

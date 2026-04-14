@@ -1,0 +1,29 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Dead bug: on back, opposite arm/leg raised -->
+    <path android:pathData="M100,90m-10,0a10,10 0,1 1,20 0a10,10 0,1 1,-20 0"
+        android:fillColor="#FFA726"/>
+    <!-- Body flat -->
+    <path android:pathData="M90,90L50,90"
+        android:strokeColor="#FFA726" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Right arm up -->
+    <path android:pathData="M70,90L70,55"
+        android:strokeColor="#FFA726" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <!-- Left arm down -->
+    <path android:pathData="M85,90L85,105"
+        android:strokeColor="#FFA726" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <!-- Left leg up (opposite to right arm) -->
+    <path android:pathData="M50,90L40,60"
+        android:strokeColor="#FFA726" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Right leg bent normally -->
+    <path android:pathData="M50,90L55,105"
+        android:strokeColor="#FFA726" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Opposites indicator -->
+    <path android:pathData="M70,55L50,60"
+        android:strokeColor="#FFCC80" android:strokeWidth="2" android:fillColor="#00000000"/>
+    <path android:pathData="M40,110L115,110"
+        android:strokeColor="#FFB74D" android:strokeWidth="2" android:strokeLineCap="round"/>
+</vector>

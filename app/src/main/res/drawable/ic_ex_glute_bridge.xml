@@ -1,0 +1,33 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Glute bridge: lying on back, hips up -->
+    <path android:pathData="M50,90m-10,0a10,10 0,1 1,20 0a10,10 0,1 1,-20 0"
+        android:fillColor="#66BB6A"/>
+    <!-- Shoulders on ground -->
+    <path android:pathData="M60,90L80,90"
+        android:strokeColor="#66BB6A" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Hips raised -->
+    <path android:pathData="M80,90L105,65"
+        android:strokeColor="#66BB6A" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Thighs up -->
+    <path android:pathData="M105,65L130,90"
+        android:strokeColor="#66BB6A" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Shins -->
+    <path android:pathData="M130,90L130,120"
+        android:strokeColor="#66BB6A" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <!-- Feet -->
+    <path android:pathData="M130,120L140,120"
+        android:strokeColor="#66BB6A" android:strokeWidth="3" android:strokeLineCap="round"/>
+    <!-- Hip up arrow -->
+    <path android:pathData="M95,80L95,50"
+        android:strokeColor="#A5D6A7" android:strokeWidth="3" android:strokeLineCap="round"/>
+    <path android:pathData="M95,50L90,57"
+        android:strokeColor="#A5D6A7" android:strokeWidth="3" android:strokeLineCap="round"/>
+    <path android:pathData="M95,50L100,57"
+        android:strokeColor="#A5D6A7" android:strokeWidth="3" android:strokeLineCap="round"/>
+    <path android:pathData="M35,122L155,122"
+        android:strokeColor="#81C784" android:strokeWidth="2" android:strokeLineCap="round"/>
+</vector>

@@ -1,0 +1,25 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Tuck jump -->
+    <path android:pathData="M100,35m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0"
+        android:fillColor="#EF5350"/>
+    <path android:pathData="M100,47L100,80"
+        android:strokeColor="#EF5350" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Arms grabbing knees -->
+    <path android:pathData="M100,65L85,80"
+        android:strokeColor="#EF5350" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <path android:pathData="M100,65L115,80"
+        android:strokeColor="#EF5350" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <!-- Knees tucked up -->
+    <path android:pathData="M100,80L85,80L85,95"
+        android:strokeColor="#EF5350" android:strokeWidth="5" android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+    <path android:pathData="M100,80L115,80L115,95"
+        android:strokeColor="#EF5350" android:strokeWidth="5" android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+    <path android:pathData="M65,130L135,130"
+        android:strokeColor="#EF9A9A" android:strokeWidth="2" android:strokeLineCap="round"/>
+</vector>

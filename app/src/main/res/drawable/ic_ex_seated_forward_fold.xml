@@ -1,0 +1,20 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Seated forward fold -->
+    <path android:pathData="M70,60m-10,0a10,10 0,1 1,20 0a10,10 0,1 1,-20 0"
+        android:fillColor="#26C6DA"/>
+    <!-- Back folded forward -->
+    <path android:pathData="M75,68L120,90"
+        android:strokeColor="#26C6DA" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Arms reaching past feet -->
+    <path android:pathData="M100,80L155,95"
+        android:strokeColor="#26C6DA" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <!-- Legs extended on ground -->
+    <path android:pathData="M120,95L160,100"
+        android:strokeColor="#26C6DA" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <path android:pathData="M50,105L170,105"
+        android:strokeColor="#80DEEA" android:strokeWidth="2" android:strokeLineCap="round"/>
+</vector>

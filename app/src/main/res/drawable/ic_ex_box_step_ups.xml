@@ -1,0 +1,29 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Person stepping up on box -->
+    <path android:pathData="M95,42m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0"
+        android:fillColor="#EC407A"/>
+    <path android:pathData="M95,54L95,100"
+        android:strokeColor="#EC407A" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <path android:pathData="M95,72L80,65"
+        android:strokeColor="#EC407A" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <path android:pathData="M95,72L110,65"
+        android:strokeColor="#EC407A" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <!-- Leg on box -->
+    <path android:pathData="M95,100L80,115L80,125"
+        android:strokeColor="#EC407A" android:strokeWidth="5" android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+    <!-- Leg stepping up -->
+    <path android:pathData="M95,100L110,120L115,145"
+        android:strokeColor="#EC407A" android:strokeWidth="5" android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+    <!-- Box -->
+    <path android:pathData="M60,125L100,125L100,150L60,150Z"
+        android:strokeColor="#F48FB1" android:strokeWidth="3"
+        android:fillColor="#F8BBD0"/>
+    <path android:pathData="M50,152L160,152"
+        android:strokeColor="#F48FB1" android:strokeWidth="2" android:strokeLineCap="round"/>
+</vector>

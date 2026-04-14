@@ -1,0 +1,30 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Standing quad stretch: holding foot behind -->
+    <path android:pathData="M100,42m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0"
+        android:fillColor="#26C6DA"/>
+    <path android:pathData="M100,54L100,110"
+        android:strokeColor="#26C6DA" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Standing leg -->
+    <path android:pathData="M100,110L100,155"
+        android:strokeColor="#26C6DA" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Quad stretch leg -->
+    <path android:pathData="M100,110L120,100L120,85"
+        android:strokeColor="#26C6DA" android:strokeWidth="5" android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+    <!-- Hand holding foot -->
+    <path android:pathData="M100,78L120,85"
+        android:strokeColor="#26C6DA" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <!-- Other arm for balance -->
+    <path android:pathData="M100,78L78,72"
+        android:strokeColor="#26C6DA" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <!-- Stretch area highlighted -->
+    <path android:pathData="M113,95 Q125,95 120,85"
+        android:strokeColor="#80DEEA" android:strokeWidth="3" android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+    <path android:pathData="M80,157L120,157"
+        android:strokeColor="#80DEEA" android:strokeWidth="2" android:strokeLineCap="round"/>
+</vector>

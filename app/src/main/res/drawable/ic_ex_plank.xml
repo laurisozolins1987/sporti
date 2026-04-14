@@ -1,0 +1,25 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Person horizontal in plank -->
+    <!-- Head -->
+    <path android:pathData="M55,72m-10,0a10,10 0,1 1,20 0a10,10 0,1 1,-20 0"
+        android:fillColor="#FFA726"/>
+    <!-- Body horizontal -->
+    <path android:pathData="M65,75L150,80"
+        android:strokeColor="#FFA726" android:strokeWidth="6" android:strokeLineCap="round"/>
+    <!-- Arms straight down -->
+    <path android:pathData="M70,78L70,115"
+        android:strokeColor="#FFA726" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <!-- Toes -->
+    <path android:pathData="M148,82L148,115"
+        android:strokeColor="#FFA726" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <!-- Ground -->
+    <path android:pathData="M40,117L170,117"
+        android:strokeColor="#FFB74D" android:strokeWidth="2" android:strokeLineCap="round"/>
+    <!-- Straight line indicator -->
+    <path android:pathData="M55,60L155,65"
+        android:strokeColor="#FFCC80" android:strokeWidth="2" android:strokeLineCap="round"/>
+</vector>

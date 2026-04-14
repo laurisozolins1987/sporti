@@ -1,0 +1,32 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Wall sit: back against wall, legs at 90 degrees -->
+    <!-- Wall -->
+    <path android:pathData="M140,30L140,160"
+        android:strokeColor="#BDBDBD" android:strokeWidth="5"/>
+    <!-- Head -->
+    <path android:pathData="M115,50m-10,0a10,10 0,1 1,20 0a10,10 0,1 1,-20 0"
+        android:fillColor="#66BB6A"/>
+    <!-- Back against wall -->
+    <path android:pathData="M120,60L125,105"
+        android:strokeColor="#66BB6A" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Thighs horizontal -->
+    <path android:pathData="M125,105L90,108"
+        android:strokeColor="#66BB6A" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Shins vertical -->
+    <path android:pathData="M90,108L90,145"
+        android:strokeColor="#66BB6A" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Arms on thighs -->
+    <path android:pathData="M122,75L105,100"
+        android:strokeColor="#66BB6A" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <!-- 90 degree indicator -->
+    <path android:pathData="M90,108L100,108L100,118"
+        android:strokeColor="#A5D6A7" android:strokeWidth="2" android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+    <!-- Ground -->
+    <path android:pathData="M60,147L155,147"
+        android:strokeColor="#81C784" android:strokeWidth="2" android:strokeLineCap="round"/>
+</vector>

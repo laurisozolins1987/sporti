@@ -1,0 +1,36 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Hook and uppercut combination -->
+    <path android:pathData="M100,42m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0"
+        android:fillColor="#FF7043"/>
+    <path android:pathData="M100,54L100,108"
+        android:strokeColor="#FF7043" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Hook arm curved -->
+    <path android:pathData="M100,72L75,65 Q60,65 60,80"
+        android:strokeColor="#FF7043" android:strokeWidth="4" android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+    <path android:pathData="M60,80m-7,0a7,7 0,1 1,14 0a7,7 0,1 1,-14 0"
+        android:fillColor="#FF5722"/>
+    <!-- Uppercut arm going up -->
+    <path android:pathData="M100,80L120,95L125,70"
+        android:strokeColor="#FF7043" android:strokeWidth="4" android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+    <path android:pathData="M125,70m-7,0a7,7 0,1 1,14 0a7,7 0,1 1,-14 0"
+        android:fillColor="#FF5722"/>
+    <!-- Upward arrow for uppercut -->
+    <path android:pathData="M135,80L135,55"
+        android:strokeColor="#FFAB91" android:strokeWidth="3" android:strokeLineCap="round"/>
+    <path android:pathData="M135,55L130,62"
+        android:strokeColor="#FFAB91" android:strokeWidth="3" android:strokeLineCap="round"/>
+    <!-- Legs -->
+    <path android:pathData="M100,108L88,142"
+        android:strokeColor="#FF7043" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <path android:pathData="M100,108L112,142"
+        android:strokeColor="#FF7043" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Arc for hook -->
+    <path android:pathData="M55,60 Q45,75 60,85"
+        android:strokeColor="#FFAB91" android:strokeWidth="2" android:fillColor="#00000000"/>
+</vector>

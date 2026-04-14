@@ -11,5 +11,6 @@ data class SportType(
 data class Exercise(
     val nameRes: Int,
     val durationSeconds: Int = 30,
-    val descriptionRes: Int? = null
+    val descriptionRes: Int = 0,
+    val illustrationRes: Int = 0
 )

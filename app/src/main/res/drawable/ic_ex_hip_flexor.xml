@@ -1,0 +1,30 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Hip flexor lunge stretch -->
+    <path android:pathData="M100,42m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0"
+        android:fillColor="#26C6DA"/>
+    <path android:pathData="M100,54L100,100"
+        android:strokeColor="#26C6DA" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Arms on hips -->
+    <path android:pathData="M100,72L85,82"
+        android:strokeColor="#26C6DA" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <path android:pathData="M100,72L115,82"
+        android:strokeColor="#26C6DA" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <!-- Front leg deep lunge -->
+    <path android:pathData="M100,100L70,120L70,155"
+        android:strokeColor="#26C6DA" android:strokeWidth="5" android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+    <!-- Back leg extended -->
+    <path android:pathData="M100,100L140,115L160,145"
+        android:strokeColor="#26C6DA" android:strokeWidth="5" android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+    <!-- Hip stretch highlight -->
+    <path android:pathData="M105,100 Q115,90 120,100"
+        android:strokeColor="#80DEEA" android:strokeWidth="3" android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+    <path android:pathData="M55,157L170,157"
+        android:strokeColor="#80DEEA" android:strokeWidth="2" android:strokeLineCap="round"/>
+</vector>

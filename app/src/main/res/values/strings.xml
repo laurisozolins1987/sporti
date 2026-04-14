@@ -134,6 +134,90 @@
     <string name="ex_cool_down_swim">Cool-down Swim</string>
     <string name="workout_morning_title">Morning Routine</string>
 
+    <!-- Exercise Descriptions - General -->
+    <string name="ex_desc_neck_circles">Stand tall. Slowly roll your head in a full circle — forward, side, back, side. Switch direction halfway through.</string>
+    <string name="ex_desc_arm_circles">Extend your arms out to the sides. Make small circles, gradually increasing to large circles. Reverse halfway.</string>
+    <string name="ex_desc_jumping_jacks">Start feet together, arms at sides. Jump feet apart while raising arms overhead. Jump back to start. Repeat quickly.</string>
+    <string name="ex_desc_high_knees">Run in place, driving your knees up to hip height. Pump your arms. Keep your core tight and stay on the balls of your feet.</string>
+    <string name="ex_desc_bodyweight_squats">Stand shoulder-width apart. Push hips back and bend knees as if sitting. Lower until thighs are parallel, then stand back up.</string>
+    <string name="ex_desc_lunges">Step forward with one leg and lower your hips until both knees are at 90°. Push back to start. Alternate legs.</string>
+    <string name="ex_desc_cat_cow">On all fours, arch your back up (cat), then drop your belly and lift your chest (cow). Move slowly with your breath.</string>
+    <string name="ex_desc_plank">Hold a push-up position on your forearms. Keep your body in a straight line from head to heels. Engage your core throughout.</string>
+
+    <!-- Exercise Descriptions - Running -->
+    <string name="ex_desc_warm_up_jog">Start with a light, easy-paced jog. Focus on loosening up your body and finding a comfortable breathing rhythm.</string>
+    <string name="ex_desc_butt_kicks">Jog in place while kicking your heels up to touch your glutes. Keep a quick pace and stay light on your feet.</string>
+    <string name="ex_desc_sprint_intervals">Sprint at maximum effort for a short burst, then jog or walk to recover. Repeat. Push hard during each sprint.</string>
+    <string name="ex_desc_side_shuffle">Get into a low athletic stance. Shuffle sideways quickly, staying low. Switch direction at the midpoint.</string>
+    <string name="ex_desc_cool_down_walk">Walk at an easy pace. Let your heart rate come down gradually. Take deep breaths and relax your muscles.</string>
+
+    <!-- Exercise Descriptions - Yoga -->
+    <string name="ex_desc_mountain_pose">Stand tall with feet together, arms at sides. Spread your toes, engage your legs, lengthen your spine. Breathe deeply.</string>
+    <string name="ex_desc_downward_dog">From all fours, lift hips up and back to form an inverted V. Press your heels toward the floor. Relax your head.</string>
+    <string name="ex_desc_warrior_one">Step one foot back. Bend front knee to 90°. Raise arms overhead, palms facing. Square your hips forward.</string>
+    <string name="ex_desc_warrior_two">From warrior I, open hips and arms to the side. Gaze over your front hand. Keep front knee bent at 90°.</string>
+    <string name="ex_desc_tree_pose">Stand on one leg. Place the other foot on your inner thigh or calf (not knee). Hands at heart center or overhead.</string>
+    <string name="ex_desc_cobra_pose">Lie face-down. Place hands under shoulders and press up, lifting your chest. Keep hips on the floor. Look slightly upward.</string>
+    <string name="ex_desc_child_pose">Kneel and sit back on your heels. Fold forward, extending your arms ahead on the floor. Rest your forehead down. Breathe deeply.</string>
+    <string name="ex_desc_savasana">Lie flat on your back, arms at sides with palms up. Close your eyes. Relax every muscle and focus on your breathing.</string>
+
+    <!-- Exercise Descriptions - HIIT -->
+    <string name="ex_desc_burpees">Stand, drop into a squat, kick feet back to plank, do a push-up, jump feet forward, then jump up with arms overhead.</string>
+    <string name="ex_desc_mountain_climbers">In plank position, drive your knees alternately toward your chest as fast as you can. Keep your core tight.</string>
+    <string name="ex_desc_jump_squats">Perform a regular squat, then explode up into a jump. Land softly and immediately lower into the next squat.</string>
+    <string name="ex_desc_push_ups">Start in plank with arms straight. Lower your body until your chest nearly touches the floor. Push back up. Keep body straight.</string>
+    <string name="ex_desc_plank_jacks">Start in plank position. Jump your feet apart and then back together, like a horizontal jumping jack. Keep core stable.</string>
+    <string name="ex_desc_tuck_jumps">Stand and jump as high as you can, pulling your knees up to your chest at the top. Land softly and repeat immediately.</string>
+    <string name="ex_desc_bicycle_crunches">Lie on your back. Lift shoulders off the floor. Alternate bringing each elbow to the opposite knee in a pedaling motion.</string>
+
+    <!-- Exercise Descriptions - Strength -->
+    <string name="ex_desc_tricep_dips">Sit on edge of a chair. Place hands beside your hips. Slide off and lower your body by bending elbows to 90°. Push back up.</string>
+    <string name="ex_desc_glute_bridge">Lie on your back, knees bent, feet flat. Lift your hips toward the ceiling, squeezing your glutes. Lower slowly.</string>
+    <string name="ex_desc_superman">Lie face-down with arms extended forward. Simultaneously lift your arms, chest, and legs off the floor. Hold, then lower.</string>
+    <string name="ex_desc_wall_sit">Stand with your back flat against a wall. Slide down until your knees are at 90°. Hold this position. Keep your back pressed to the wall.</string>
+
+    <!-- Exercise Descriptions - Cardio -->
+    <string name="ex_desc_skaters">Jump laterally from one foot to the other, swinging your arms. Land softly on each foot. Stay low and keep moving.</string>
+    <string name="ex_desc_star_jumps">Jump up explosively, spreading arms and legs into a star shape at the top. Land with feet together and repeat.</string>
+    <string name="ex_desc_box_step_ups">Step one foot onto a raised surface, then the other. Step back down. Alternate the leading foot each time.</string>
+    <string name="ex_desc_speed_skipping">Skip rope at a quick pace (or simulate without a rope). Stay on the balls of your feet, wrists turning the rope.</string>
+
+    <!-- Exercise Descriptions - Boxing -->
+    <string name="ex_desc_jab_cross">From boxing stance: throw a quick jab with your lead hand, followed by a powerful cross with your rear hand. Rotate hips.</string>
+    <string name="ex_desc_hook_uppercut">Throw a hook by swinging your arm in a curve at head height, then follow with an uppercut driving your fist upward from below.</string>
+    <string name="ex_desc_bob_weave">Bend your knees to duck low, then shift your weight side to side, rising back up. Imagine dodging punches.</string>
+    <string name="ex_desc_shadow_boxing">Throw combinations of punches at an imaginary opponent. Move around, stay light on your feet. Mix jabs, crosses, hooks.</string>
+    <string name="ex_desc_boxing_footwork">Practice moving forward, backward, and side to side in boxing stance. Stay balanced, keep guard up, and move on the balls of your feet.</string>
+    <string name="ex_desc_speed_punches">Throw rapid straight punches alternating hands as fast as you can. Keep your guard up and stay balanced.</string>
+    <string name="ex_desc_defensive_drills">Practice blocking, parrying, and slipping punches. Keep hands up to protect your face. React to imaginary attacks.</string>
+
+    <!-- Exercise Descriptions - Flexibility -->
+    <string name="ex_desc_hamstring_stretch">Sit with legs extended. Reach forward toward your toes, keeping your back as straight as possible. Hold the stretch.</string>
+    <string name="ex_desc_quad_stretch">Stand on one leg. Grab your other foot behind you and pull it toward your glutes. Keep knees together. Hold and switch.</string>
+    <string name="ex_desc_hip_flexor">Kneel in a lunge position. Push your hips forward until you feel a stretch in the front of your back hip. Hold and switch.</string>
+    <string name="ex_desc_shoulder_stretch">Bring one arm across your chest. Use the other hand to gently press it closer. Feel the stretch in your shoulder. Switch sides.</string>
+    <string name="ex_desc_seated_forward_fold">Sit with legs extended. Exhale and fold forward from the hips, reaching for your feet. Relax your head and hold.</string>
+    <string name="ex_desc_pigeon_pose">From all fours, bring one knee forward and lay that shin on the floor. Extend the other leg back. Fold forward over the front leg.</string>
+
+    <!-- Exercise Descriptions - Core -->
+    <string name="ex_desc_russian_twists">Sit with knees bent, lean back slightly. Twist your torso from side to side, touching the floor beside your hip each time.</string>
+    <string name="ex_desc_leg_raises">Lie on your back, legs straight. Keeping legs together, lift them up to 90° then lower slowly without touching the floor.</string>
+    <string name="ex_desc_dead_bug">Lie on your back, arms up, knees bent at 90°. Extend opposite arm and leg outward simultaneously. Return and switch sides.</string>
+    <string name="ex_desc_side_plank">Lie on your side. Prop yourself up on your forearm. Lift your hips into a straight line. Hold. Keep hips from sagging.</string>
+    <string name="ex_desc_flutter_kicks">Lie on your back, hands under your hips. Lift legs slightly and alternate kicking up and down in small, rapid movements.</string>
+
+    <!-- Exercise Descriptions - Cycling -->
+    <string name="ex_desc_warm_up_ride">Start with an easy, low-resistance pedaling pace. Get your legs warmed up and find a comfortable cadence.</string>
+    <string name="ex_desc_hill_climb">Increase resistance and lower your cadence. Stand in the pedals if needed. Simulate climbing a steep hill.</string>
+    <string name="ex_desc_endurance_ride">Maintain a steady, moderate pace. Focus on consistent effort and breathing. Build cardiovascular endurance.</string>
+    <string name="ex_desc_cool_down_ride">Reduce resistance to minimum. Pedal slowly and let your heart rate come down. Gentle spin to recover.</string>
+
+    <!-- Exercise Descriptions - Swimming -->
+    <string name="ex_desc_freestyle_drills">Practice freestyle stroke technique. Focus on arm pull, body rotation, and rhythmic breathing to each side.</string>
+    <string name="ex_desc_backstroke_drills">Practice backstroke technique. Lie on your back, alternate arm pulls overhead. Keep hips high and kick steadily.</string>
+    <string name="ex_desc_treading_water">Stay vertical in the water. Use eggbeater kicks or scissors kicks with sculling arms to keep your head above water.</string>
+    <string name="ex_desc_cool_down_swim">Swim at a relaxed, easy pace. Focus on smooth strokes and deep breathing. Let your muscles recover gradually.</string>
+
     <!-- Rewards System -->
     <string name="rewards_title">Rewards &amp; Achievements</string>
     <string name="rewards_banner_title">Your Rewards</string>

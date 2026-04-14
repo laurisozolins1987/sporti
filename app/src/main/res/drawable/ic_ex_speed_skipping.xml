@@ -1,0 +1,27 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Skip rope -->
+    <path android:pathData="M100,38m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0"
+        android:fillColor="#EC407A"/>
+    <path android:pathData="M100,50L100,95"
+        android:strokeColor="#EC407A" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Arms holding rope -->
+    <path android:pathData="M100,68L80,80"
+        android:strokeColor="#EC407A" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <path android:pathData="M100,68L120,80"
+        android:strokeColor="#EC407A" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <!-- Legs mid-jump -->
+    <path android:pathData="M100,95L92,120"
+        android:strokeColor="#EC407A" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <path android:pathData="M100,95L108,120"
+        android:strokeColor="#EC407A" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Rope arc -->
+    <path android:pathData="M80,80 Q55,130 100,140 Q145,130 120,80"
+        android:strokeColor="#F48FB1" android:strokeWidth="2.5" android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+    <path android:pathData="M70,150L130,150"
+        android:strokeColor="#F8BBD0" android:strokeWidth="2" android:strokeLineCap="round"/>
+</vector>

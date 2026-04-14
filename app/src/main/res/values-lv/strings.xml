@@ -134,6 +134,90 @@
     <string name="ex_cool_down_swim">Atdzišanas peldēšana</string>
     <string name="workout_morning_title">Rīta rosme</string>
 
+    <!-- Exercise Descriptions - General -->
+    <string name="ex_desc_neck_circles">Stāvi taisni. Lēnām ripo galvu pilnā aplī — uz priekšu, sānu, atpakaļ, sānu. Pusceļā maini virzienu.</string>
+    <string name="ex_desc_arm_circles">Izstiep rokas uz sāniem. Veic mazus apļus, pakāpeniski palielinot. Pusceļā maini virzienu.</string>
+    <string name="ex_desc_jumping_jacks">Sāc ar kājām kopā, rokām pie sāniem. Lec kājas platumā, paceļot rokas virs galvas. Lec atpakaļ. Atkārto ātri.</string>
+    <string name="ex_desc_high_knees">Skrien uz vietas, ceļot ceļgalus līdz gurnu augstumam. Kustini rokas. Turi ķermeni sasprindzinātu un paliec uz pirkstgaliem.</string>
+    <string name="ex_desc_bodyweight_squats">Stāvi plecu platumā. Stumj gurnus atpakaļ un liec ceļus kā sēžoties. Nolaidies līdz augšstilbi ir paralēli, tad celies.</string>
+    <string name="ex_desc_lunges">Sper soli uz priekšu ar vienu kāju un nolaidies, līdz abi ceļi ir 90°. Atgriezies sākumā. Maini kājas.</string>
+    <string name="ex_desc_cat_cow">Uz četrām, izliec muguru uz augšu (kaķis), tad nolaid vēderu un pacel krūtis (govs). Kusties lēni ar elpu.</string>
+    <string name="ex_desc_plank">Turi atspiedienā pozīciju uz apakšdelmiem. Turi ķermeni taisnā līnijā no galvas līdz papēžiem. Sasprindzini vēderu.</string>
+
+    <!-- Exercise Descriptions - Running -->
+    <string name="ex_desc_warm_up_jog">Sāc ar vieglu, mierīgu skriešanu. Koncentrējies uz ķermeņa iesildīšanu un ērta elpošanas ritma atrašanu.</string>
+    <string name="ex_desc_butt_kicks">Skrien uz vietas, sitot papēžus pret sēžamvietu. Turi ātru tempu un paliec viegli uz kājām.</string>
+    <string name="ex_desc_sprint_intervals">Sprinto ar maksimālu piepūli īsu brīdi, tad atpūties ar vieglu skriešanu. Atkārto. Dod visu katrā sprintā.</string>
+    <string name="ex_desc_side_shuffle">Ieņem zemu atlētisko stāju. Ātri pārvietojies uz sāniem, paliekot zemu. Maini virzienu pusceļā.</string>
+    <string name="ex_desc_cool_down_walk">Ej mierīgā tempā. Ļauj sirdsdarbībai pakāpeniski palēnināties. Elpo dziļi un atslābini muskuļus.</string>
+
+    <!-- Exercise Descriptions - Yoga -->
+    <string name="ex_desc_mountain_pose">Stāvi ar kājām kopā, rokām pie sāniem. Izpleti pirkstus, sasprindzini kājas, izstiep mugurkaulu. Elpo dziļi.</string>
+    <string name="ex_desc_downward_dog">No četrām pacel gurnus augšup un atpakaļ, veidojot apgrieztu V. Spied papēžus pret grīdu. Atslābini galvu.</string>
+    <string name="ex_desc_warrior_one">Sper vienu kāju atpakaļ. Saliec priekšējo celi līdz 90°. Pacel rokas virs galvas, plaukstas uz priekšu. Pavērs gurnus uz priekšu.</string>
+    <string name="ex_desc_warrior_two">No karotāja I atver gurnus un rokas uz sāniem. Skaties pāri priekšējai rokai. Turi priekšējo celi 90°.</string>
+    <string name="ex_desc_tree_pose">Stāvi uz vienas kājas. Novieto otru pēdu uz augšstilba vai apakšstilba (ne ceļa). Rokas pie krūtīm vai virs galvas.</string>
+    <string name="ex_desc_cobra_pose">Guļ uz vēdera. Novieto rokas zem pleciem un spiedi augšup, paceļot krūtis. Turi gurnus uz grīdas. Skaties nedaudz augšup.</string>
+    <string name="ex_desc_child_pose">Nometi ceļos un apsēdies uz papēžiem. Noliecies uz priekšu, izstiepienes rokas. Novieto pieri uz grīdas. Elpo dziļi.</string>
+    <string name="ex_desc_savasana">Guļ uz muguras, rokas pie sāniem ar plaukstām uz augšu. Aizver acis. Atslābini katru muskuli un koncentrējies uz elpošanu.</string>
+
+    <!-- Exercise Descriptions - HIIT -->
+    <string name="ex_desc_burpees">Stāvi, nolaidies pietupienā, atsper kājas atpakaļ plankā, veic atspiedienu, lec kājas uz priekšu, tad lec augšā ar rokām virs galvas.</string>
+    <string name="ex_desc_mountain_climbers">Plankas pozīcijā virzini ceļus pārmaiņus pret krūtīm pēc iespējas ātrāk. Turi vēderu sasprindzinātu.</string>
+    <string name="ex_desc_jump_squats">Veic parastu pietupienu, tad eksplodē augšup lēcienā. Nolaižoties mīksti un uzreiz ej nākamajā pietupienā.</string>
+    <string name="ex_desc_push_ups">Sāc plankā ar iztaisnotām rokām. Nolaidies, līdz krūtis gandrīz pieskaras grīdai. Spiedi atpakaļ augšā. Turi ķermeni taisni.</string>
+    <string name="ex_desc_plank_jacks">Sāc plankas pozīcijā. Lec kājas plaši un tad kopā, kā horizontāls zvaigžņu lēciens. Turi vēderu stabilu.</string>
+    <string name="ex_desc_tuck_jumps">Stāvi un lec tik augstu, cik vari, pievilkot ceļus pie krūtīm augstākajā punktā. Nolaižoties mīksti un atkārto.</string>
+    <string name="ex_desc_bicycle_crunches">Guļ uz muguras. Pacel plecus no grīdas. Pārmaiņus tuvo katru elkoni pret pretējo celi pedālēšanas kustībā.</string>
+
+    <!-- Exercise Descriptions - Strength -->
+    <string name="ex_desc_tricep_dips">Sēdi uz krēsla malas. Novieto rokas pie gurniem. Noslīdi un nolaidies, liecot elkoņus līdz 90°. Spiedi atpakaļ augšā.</string>
+    <string name="ex_desc_glute_bridge">Guļ uz muguras, ceļi saliekti, pēdas uz grīdas. Pacel gurnus pret griestiem, sasprindzinot sēžamvietu. Lēni nolaidies.</string>
+    <string name="ex_desc_superman">Guļ uz vēdera ar rokām izstiepienu uz priekšu. Vienlaicīgi pacel rokas, krūtis un kājas no grīdas. Turini un nolaidies.</string>
+    <string name="ex_desc_wall_sit">Stāvi ar muguru pret sienu. Noslīdi līdz ceļi ir 90°. Turini šo pozīciju. Turi muguru piespiestu pie sienas.</string>
+
+    <!-- Exercise Descriptions - Cardio -->
+    <string name="ex_desc_skaters">Lec no vienas kājas uz otru sāniski, vēzējot rokas. Nolaižoties mīksti uz katras kājas. Paliec zemu un kusties.</string>
+    <string name="ex_desc_star_jumps">Lec eksplozīvi augšā, izplešot rokas un kājas zvaigznes formā augstākajā punktā. Nolaižoties ar kājām kopā un atkārto.</string>
+    <string name="ex_desc_box_step_ups">Uzkāp ar vienu kāju uz paaugstinājuma, tad otru. Nokāp lejā. Maini vadošo kāju katru reizi.</string>
+    <string name="ex_desc_speed_skipping">Lēkā ar auklu ātrā tempā (vai simulē bez auklas). Paliec uz pirkstgaliem, plaukstas griež auklu.</string>
+
+    <!-- Exercise Descriptions - Boxing -->
+    <string name="ex_desc_jab_cross">No boksa stājas: met ātru džebu ar vadošo roku, tad spēcīgu krosu ar aizmugurējo roku. Grozi gurnus.</string>
+    <string name="ex_desc_hook_uppercut">Met āķi, vēzējot roku līkumā galvas augstumā, tad seko ar aperkotu, virzot dūri augšup no apakšas.</string>
+    <string name="ex_desc_bob_weave">Saliec ceļus, lai noliektos zemu, tad pārvieto svaru no sāna uz sānu, ceļoties augšā. Iztēlojies, ka izvairās no sitieniem.</string>
+    <string name="ex_desc_shadow_boxing">Met sitienu kombinācijas iedomātam pretiniekam. Pārvietojies, paliec viegli uz kājām. Maini džebus, krosus, āķus.</string>
+    <string name="ex_desc_boxing_footwork">Trenē pārvietošanos uz priekšu, atpakaļ un uz sāniem boksa stājā. Turi līdzsvaru, aizsardzību augšā un kusties uz pirkstgaliem.</string>
+    <string name="ex_desc_speed_punches">Met ātrus taisnus sitienus, mainoties ar rokām pēc iespējas ātrāk. Turi aizsardzību augšā un saglabā līdzsvaru.</string>
+    <string name="ex_desc_defensive_drills">Trenē bloķēšanu, atvairīšanu un izvairīšanos. Turi rokas augšā, lai aizsargātu seju. Reaģē uz iedomātiem uzbrukumiem.</string>
+
+    <!-- Exercise Descriptions - Flexibility -->
+    <string name="ex_desc_hamstring_stretch">Sēdi ar iztaisnotām kājām. Stiepies uz priekšu pret pirkstgaliem, turot muguru pēc iespējas taisnāku. Turini stiepumu.</string>
+    <string name="ex_desc_quad_stretch">Stāvi uz vienas kājas. Satver otru pēdu aiz sevis un velc to pret sēžamvietu. Turi ceļus kopā. Turini un maini.</string>
+    <string name="ex_desc_hip_flexor">Nometi ceļos izsoļa pozīcijā. Stumj gurnus uz priekšu, līdz jūti stiepumu aizmugurējā gurna priekšā. Turini un maini.</string>
+    <string name="ex_desc_shoulder_stretch">Pārvelc vienu roku pāri krūtīm. Ar otru roku maigi piespied tuvāk. Jūti stiepumu plecā. Maini puses.</string>
+    <string name="ex_desc_seated_forward_fold">Sēdi ar iztaisnotām kājām. Izelpo un lokies uz priekšu no gurniem, stiepjoties pret pēdām. Atslābini galvu un turini.</string>
+    <string name="ex_desc_pigeon_pose">No četrām pārvieto vienu celi uz priekšu un noliec stilbu uz grīdas. Izstiep otru kāju atpakaļ. Noliecies pāri priekšējai kājai.</string>
+
+    <!-- Exercise Descriptions - Core -->
+    <string name="ex_desc_russian_twists">Sēdi ar saliektiem ceļiem, nedaudz atgāzies atpakaļ. Grozi ķermeni no sāna uz sānu, pieskaroties grīdai pie gurna katrā pusē.</string>
+    <string name="ex_desc_leg_raises">Guļ uz muguras, kājas taisnas. Turot kājas kopā, pacel tās līdz 90° un lēni nolaid, nepieskaroties grīdai.</string>
+    <string name="ex_desc_dead_bug">Guļ uz muguras, rokas augšā, ceļi saliekt 90°. Izstiep pretējo roku un kāju vienlaicīgi. Atgriezies un maini puses.</string>
+    <string name="ex_desc_side_plank">Guļ uz sāna. Atbalsti uz apakšdelma. Pacel gurnus taisnā līnijā. Turini. Neļauj gurniem noslīdēt.</string>
+    <string name="ex_desc_flutter_kicks">Guļ uz muguras, rokas zem gurniem. Pacel kājas nedaudz un pārmaiņus sper augšā un lejā mazās, ātrās kustībās.</string>
+
+    <!-- Exercise Descriptions - Cycling -->
+    <string name="ex_desc_warm_up_ride">Sāc ar vieglu, zemas pretestības pedālēšanu. Iesildies kājas un atrodi ērtu kadenci.</string>
+    <string name="ex_desc_hill_climb">Palielini pretestību un samazini kadenci. Ja vajadzīgs, piecelies pedāļos. Simulē stāvu kalnu.</string>
+    <string name="ex_desc_endurance_ride">Uzturi vienmērīgu, mērenu tempu. Koncentrējies uz pastāvīgu piepūli un elpošanu. Veido kardio izturību.</string>
+    <string name="ex_desc_cool_down_ride">Samazini pretestību līdz minimumam. Pedāle lēni un ļauj sirdsdarbībai samazināties. Viegla atjaunošanās.</string>
+
+    <!-- Exercise Descriptions - Swimming -->
+    <string name="ex_desc_freestyle_drills">Trenē brīvā stila tehniku. Koncentrējies uz roku vilkmi, ķermeņa rotāciju un ritmisku elpošanu uz abām pusēm.</string>
+    <string name="ex_desc_backstroke_drills">Trenē mugurpeldēšanas tehniku. Guļ uz muguras, pārmaiņus velc rokas virs galvas. Turi gurnus augstu un sper vienmērīgi.</string>
+    <string name="ex_desc_treading_water">Paliec vertikāli ūdenī. Izmanto šķēru spērienus vai apļveida kustības ar rokām, lai turētu galvu virs ūdens.</string>
+    <string name="ex_desc_cool_down_swim">Peldi mierīgā, vieglā tempā. Koncentrējies uz gludiem vēzieniem un dziļu elpošanu. Ļauj muskuļiem atjaunoties.</string>
+
     <!-- Rewards System -->
     <string name="rewards_title">Apbalvojumi un sasniegumi</string>
     <string name="rewards_banner_title">Tavi apbalvojumi</string>

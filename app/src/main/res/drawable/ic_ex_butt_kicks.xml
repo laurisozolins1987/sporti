@@ -1,0 +1,30 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Person kicking heels back -->
+    <!-- Head -->
+    <path android:pathData="M95,42m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0"
+        android:fillColor="#EC407A"/>
+    <!-- Body -->
+    <path android:pathData="M95,54L95,108"
+        android:strokeColor="#EC407A" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Arms -->
+    <path android:pathData="M95,75L75,65"
+        android:strokeColor="#EC407A" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <path android:pathData="M95,75L115,65"
+        android:strokeColor="#EC407A" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <!-- Standing leg -->
+    <path android:pathData="M95,108L85,150"
+        android:strokeColor="#EC407A" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Kicking leg - heel to butt -->
+    <path android:pathData="M95,108L115,115L110,90"
+        android:strokeColor="#EC407A" android:strokeWidth="5" android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+    <!-- Arrow showing kick direction -->
+    <path android:pathData="M120,100L115,88"
+        android:strokeColor="#F48FB1" android:strokeWidth="3" android:strokeLineCap="round"/>
+    <path android:pathData="M115,88L120,94"
+        android:strokeColor="#F48FB1" android:strokeWidth="3" android:strokeLineCap="round"/>
+</vector>

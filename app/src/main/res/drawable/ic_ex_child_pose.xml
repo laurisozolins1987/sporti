@@ -1,0 +1,26 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Child's pose: kneeling with arms forward -->
+    <path android:pathData="M65,100m-10,0a10,10 0,1 1,20 0a10,10 0,1 1,-20 0"
+        android:fillColor="#7E57C2"/>
+    <!-- Arms extended forward on ground -->
+    <path android:pathData="M65,105L40,115"
+        android:strokeColor="#7E57C2" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <!-- Body curled -->
+    <path android:pathData="M72,105 Q95,100 110,110"
+        android:strokeColor="#7E57C2" android:strokeWidth="5" android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+    <!-- Legs tucked under -->
+    <path android:pathData="M110,110L130,100L130,115"
+        android:strokeColor="#7E57C2" android:strokeWidth="5" android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+    <!-- Ground -->
+    <path android:pathData="M30,118L150,118"
+        android:strokeColor="#B39DDB" android:strokeWidth="2" android:strokeLineCap="round"/>
+    <!-- Peace symbol -->
+    <path android:pathData="M160,70 Q165,60 170,70 Q165,80 160,70Z"
+        android:fillColor="#D1C4E9"/>
+</vector>

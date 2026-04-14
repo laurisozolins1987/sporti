@@ -1,0 +1,33 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Skater: lateral jump position -->
+    <path android:pathData="M90,42m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0"
+        android:fillColor="#EC407A"/>
+    <path android:pathData="M90,54L95,100"
+        android:strokeColor="#EC407A" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Arms -->
+    <path android:pathData="M92,72L70,62"
+        android:strokeColor="#EC407A" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <path android:pathData="M92,72L120,80"
+        android:strokeColor="#EC407A" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <!-- Front leg bent -->
+    <path android:pathData="M95,100L80,120L75,145"
+        android:strokeColor="#EC407A" android:strokeWidth="5" android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+    <!-- Back leg extended -->
+    <path android:pathData="M95,100L130,105L145,115"
+        android:strokeColor="#EC407A" android:strokeWidth="5" android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+    <!-- Side arrow -->
+    <path android:pathData="M50,130L35,130"
+        android:strokeColor="#F48FB1" android:strokeWidth="3" android:strokeLineCap="round"/>
+    <path android:pathData="M35,130L42,125"
+        android:strokeColor="#F48FB1" android:strokeWidth="3" android:strokeLineCap="round"/>
+    <path android:pathData="M35,130L42,135"
+        android:strokeColor="#F48FB1" android:strokeWidth="3" android:strokeLineCap="round"/>
+    <path android:pathData="M55,148L160,148"
+        android:strokeColor="#F8BBD0" android:strokeWidth="2" android:strokeLineCap="round"/>
+</vector>

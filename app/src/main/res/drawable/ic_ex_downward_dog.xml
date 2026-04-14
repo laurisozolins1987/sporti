@@ -1,0 +1,33 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Inverted V shape -->
+    <!-- Hands on ground -->
+    <path android:pathData="M55,130L55,135"
+        android:strokeColor="#AB47BC" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <!-- Arms -->
+    <path android:pathData="M55,130L95,75"
+        android:strokeColor="#AB47BC" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Hips up (peak) -->
+    <!-- Back/legs -->
+    <path android:pathData="M95,75L145,130"
+        android:strokeColor="#AB47BC" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Feet -->
+    <path android:pathData="M145,130L145,135"
+        android:strokeColor="#AB47BC" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <!-- Head hanging -->
+    <path android:pathData="M65,118m-10,0a10,10 0,1 1,20 0a10,10 0,1 1,-20 0"
+        android:fillColor="#AB47BC"/>
+    <!-- Ground -->
+    <path android:pathData="M35,137L170,137"
+        android:strokeColor="#CE93D8" android:strokeWidth="2" android:strokeLineCap="round"/>
+    <!-- Hip arrow up -->
+    <path android:pathData="M95,65L95,48"
+        android:strokeColor="#E1BEE7" android:strokeWidth="3" android:strokeLineCap="round"/>
+    <path android:pathData="M95,48L90,55"
+        android:strokeColor="#E1BEE7" android:strokeWidth="3" android:strokeLineCap="round"/>
+    <path android:pathData="M95,48L100,55"
+        android:strokeColor="#E1BEE7" android:strokeWidth="3" android:strokeLineCap="round"/>
+</vector>

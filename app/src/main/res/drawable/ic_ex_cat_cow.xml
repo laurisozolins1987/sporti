@@ -1,0 +1,37 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Person on all fours - arched up (cat) -->
+    <!-- Head -->
+    <path android:pathData="M60,65m-10,0a10,10 0,1 1,20 0a10,10 0,1 1,-20 0"
+        android:fillColor="#AB47BC"/>
+    <!-- Arched back -->
+    <path android:pathData="M70,70 Q100,45 140,75"
+        android:strokeColor="#AB47BC" android:strokeWidth="5" android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+    <!-- Arms -->
+    <path android:pathData="M72,72L72,110"
+        android:strokeColor="#AB47BC" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <!-- Legs -->
+    <path android:pathData="M138,75L138,110"
+        android:strokeColor="#AB47BC" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <!-- Ground -->
+    <path android:pathData="M40,112L160,112"
+        android:strokeColor="#CE93D8" android:strokeWidth="2" android:strokeLineCap="round"/>
+    <!-- Arrow showing spine movement -->
+    <path android:pathData="M100,55L100,40"
+        android:strokeColor="#E1BEE7" android:strokeWidth="3" android:strokeLineCap="round"/>
+    <path android:pathData="M100,40L95,47"
+        android:strokeColor="#E1BEE7" android:strokeWidth="3" android:strokeLineCap="round"/>
+    <path android:pathData="M100,40L105,47"
+        android:strokeColor="#E1BEE7" android:strokeWidth="3" android:strokeLineCap="round"/>
+    <!-- Down arrow for cow -->
+    <path android:pathData="M100,130L100,145"
+        android:strokeColor="#E1BEE7" android:strokeWidth="3" android:strokeLineCap="round"/>
+    <path android:pathData="M100,145L95,138"
+        android:strokeColor="#E1BEE7" android:strokeWidth="3" android:strokeLineCap="round"/>
+    <path android:pathData="M100,145L105,138"
+        android:strokeColor="#E1BEE7" android:strokeWidth="3" android:strokeLineCap="round"/>
+</vector>

@@ -1,0 +1,30 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Mountain climbers: plank with knee drive -->
+    <path android:pathData="M60,72m-10,0a10,10 0,1 1,20 0a10,10 0,1 1,-20 0"
+        android:fillColor="#EF5350"/>
+    <!-- Body in plank -->
+    <path android:pathData="M68,78L150,95"
+        android:strokeColor="#EF5350" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Arms straight -->
+    <path android:pathData="M72,80L72,115"
+        android:strokeColor="#EF5350" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <!-- Back leg -->
+    <path android:pathData="M150,95L160,115"
+        android:strokeColor="#EF5350" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Driving knee forward -->
+    <path android:pathData="M130,90L110,100L105,80"
+        android:strokeColor="#EF5350" android:strokeWidth="5" android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+    <!-- Arrow showing knee drive -->
+    <path android:pathData="M115,85L100,78"
+        android:strokeColor="#FF8A80" android:strokeWidth="3" android:strokeLineCap="round"/>
+    <path android:pathData="M100,78L107,78"
+        android:strokeColor="#FF8A80" android:strokeWidth="3" android:strokeLineCap="round"/>
+    <!-- Ground -->
+    <path android:pathData="M45,117L175,117"
+        android:strokeColor="#EF9A9A" android:strokeWidth="2" android:strokeLineCap="round"/>
+</vector>

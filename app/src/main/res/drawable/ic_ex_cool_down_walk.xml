@@ -1,0 +1,30 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Person walking calmly -->
+    <!-- Head -->
+    <path android:pathData="M100,45m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0"
+        android:fillColor="#66BB6A"/>
+    <!-- Body -->
+    <path android:pathData="M100,57L100,110"
+        android:strokeColor="#66BB6A" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Arms relaxed -->
+    <path android:pathData="M100,78L82,95"
+        android:strokeColor="#66BB6A" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <path android:pathData="M100,78L118,95"
+        android:strokeColor="#66BB6A" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <!-- Legs walking -->
+    <path android:pathData="M100,110L85,145"
+        android:strokeColor="#66BB6A" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <path android:pathData="M100,110L115,145"
+        android:strokeColor="#66BB6A" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Calm waves -->
+    <path android:pathData="M50,55 Q60,50 70,55"
+        android:strokeColor="#A5D6A7" android:strokeWidth="2" android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+    <path android:pathData="M130,55 Q140,50 150,55"
+        android:strokeColor="#A5D6A7" android:strokeWidth="2" android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+</vector>

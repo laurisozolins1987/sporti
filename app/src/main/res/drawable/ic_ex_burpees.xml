@@ -1,0 +1,35 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Burpee: person jumping from ground -->
+    <path android:pathData="M100,35m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0"
+        android:fillColor="#EF5350"/>
+    <path android:pathData="M100,47L100,90"
+        android:strokeColor="#EF5350" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Arms up in jump -->
+    <path android:pathData="M100,62L78,42"
+        android:strokeColor="#EF5350" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <path android:pathData="M100,62L122,42"
+        android:strokeColor="#EF5350" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <!-- Legs tucked -->
+    <path android:pathData="M100,90L82,105L82,120"
+        android:strokeColor="#EF5350" android:strokeWidth="5" android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+    <path android:pathData="M100,90L118,105L118,120"
+        android:strokeColor="#EF5350" android:strokeWidth="5" android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+    <!-- Up arrows -->
+    <path android:pathData="M60,145L60,130"
+        android:strokeColor="#FF8A80" android:strokeWidth="3" android:strokeLineCap="round"/>
+    <path android:pathData="M60,130L55,137"
+        android:strokeColor="#FF8A80" android:strokeWidth="3" android:strokeLineCap="round"/>
+    <path android:pathData="M140,145L140,130"
+        android:strokeColor="#FF8A80" android:strokeWidth="3" android:strokeLineCap="round"/>
+    <path android:pathData="M140,130L135,137"
+        android:strokeColor="#FF8A80" android:strokeWidth="3" android:strokeLineCap="round"/>
+    <!-- Ground -->
+    <path android:pathData="M50,150L150,150"
+        android:strokeColor="#EF9A9A" android:strokeWidth="2" android:strokeLineCap="round"/>
+</vector>

@@ -1,0 +1,36 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Defensive drills: blocking stance -->
+    <path android:pathData="M100,42m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0"
+        android:fillColor="#FF7043"/>
+    <path android:pathData="M100,54L100,105"
+        android:strokeColor="#FF7043" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Arms blocking in front of face -->
+    <path android:pathData="M100,68L85,55"
+        android:strokeColor="#FF7043" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <path android:pathData="M85,55m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0"
+        android:fillColor="#FF5722"/>
+    <path android:pathData="M100,72L90,60"
+        android:strokeColor="#FF7043" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <path android:pathData="M90,60m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0"
+        android:fillColor="#FF5722"/>
+    <!-- Shield/block indicator -->
+    <path android:pathData="M78,48 Q82,40 92,48"
+        android:strokeColor="#FFAB91" android:strokeWidth="3" android:fillColor="#00000000"
+        android:strokeLineCap="round"/>
+    <!-- Legs -->
+    <path android:pathData="M100,105L85,142"
+        android:strokeColor="#FF7043" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <path android:pathData="M100,105L115,142"
+        android:strokeColor="#FF7043" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Incoming lines being blocked -->
+    <path android:pathData="M60,42L78,50"
+        android:strokeColor="#FFCCBC" android:strokeWidth="2" android:strokeLineCap="round"/>
+    <path android:pathData="M55,55L78,55"
+        android:strokeColor="#FFCCBC" android:strokeWidth="2" android:strokeLineCap="round"/>
+    <path android:pathData="M58,68L78,62"
+        android:strokeColor="#FFCCBC" android:strokeWidth="2" android:strokeLineCap="round"/>
+</vector>

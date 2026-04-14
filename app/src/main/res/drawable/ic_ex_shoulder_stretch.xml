@@ -1,0 +1,26 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Shoulder stretch: arm across body -->
+    <path android:pathData="M100,42m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0"
+        android:fillColor="#26C6DA"/>
+    <path android:pathData="M100,54L100,115"
+        android:strokeColor="#26C6DA" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- One arm across chest -->
+    <path android:pathData="M100,75L65,80"
+        android:strokeColor="#26C6DA" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <!-- Other arm holding it -->
+    <path android:pathData="M100,80L85,75"
+        android:strokeColor="#26C6DA" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <!-- Legs -->
+    <path android:pathData="M100,115L90,155"
+        android:strokeColor="#26C6DA" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <path android:pathData="M100,115L110,155"
+        android:strokeColor="#26C6DA" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Stretch indicator -->
+    <path android:pathData="M80,65 Q90,55 100,65"
+        android:strokeColor="#80DEEA" android:strokeWidth="2.5" android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+</vector>

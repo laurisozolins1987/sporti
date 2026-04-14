@@ -1,0 +1,35 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Tricep dips on chair -->
+    <!-- Chair/bench -->
+    <path android:pathData="M60,85L140,85"
+        android:strokeColor="#81C784" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <path android:pathData="M65,85L65,130"
+        android:strokeColor="#81C784" android:strokeWidth="3" android:strokeLineCap="round"/>
+    <path android:pathData="M135,85L135,130"
+        android:strokeColor="#81C784" android:strokeWidth="3" android:strokeLineCap="round"/>
+    <!-- Head -->
+    <path android:pathData="M100,50m-10,0a10,10 0,1 1,20 0a10,10 0,1 1,-20 0"
+        android:fillColor="#66BB6A"/>
+    <!-- Body hanging -->
+    <path android:pathData="M100,60L100,100"
+        android:strokeColor="#66BB6A" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Arms on bench -->
+    <path android:pathData="M100,70L80,85"
+        android:strokeColor="#66BB6A" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <path android:pathData="M100,70L120,85"
+        android:strokeColor="#66BB6A" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <!-- Legs forward -->
+    <path android:pathData="M100,100L100,130"
+        android:strokeColor="#66BB6A" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Down arrow -->
+    <path android:pathData="M150,65L150,100"
+        android:strokeColor="#A5D6A7" android:strokeWidth="3" android:strokeLineCap="round"/>
+    <path android:pathData="M150,100L145,93"
+        android:strokeColor="#A5D6A7" android:strokeWidth="3" android:strokeLineCap="round"/>
+    <path android:pathData="M150,100L155,93"
+        android:strokeColor="#A5D6A7" android:strokeWidth="3" android:strokeLineCap="round"/>
+</vector>

@@ -1,0 +1,32 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Star jump -->
+    <path android:pathData="M100,35m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0"
+        android:fillColor="#EC407A"/>
+    <path android:pathData="M100,47L100,95"
+        android:strokeColor="#EC407A" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Arms wide up -->
+    <path android:pathData="M100,62L60,38"
+        android:strokeColor="#EC407A" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <path android:pathData="M100,62L140,38"
+        android:strokeColor="#EC407A" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <!-- Legs wide -->
+    <path android:pathData="M100,95L60,140"
+        android:strokeColor="#EC407A" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <path android:pathData="M100,95L140,140"
+        android:strokeColor="#EC407A" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Star sparkles -->
+    <path android:pathData="M55,32L55,28"
+        android:strokeColor="#F48FB1" android:strokeWidth="2" android:strokeLineCap="round"/>
+    <path android:pathData="M145,32L145,28"
+        android:strokeColor="#F48FB1" android:strokeWidth="2" android:strokeLineCap="round"/>
+    <path android:pathData="M50,35L46,35"
+        android:strokeColor="#F48FB1" android:strokeWidth="2" android:strokeLineCap="round"/>
+    <path android:pathData="M150,35L154,35"
+        android:strokeColor="#F48FB1" android:strokeWidth="2" android:strokeLineCap="round"/>
+    <path android:pathData="M60,148L140,148"
+        android:strokeColor="#F8BBD0" android:strokeWidth="2" android:strokeLineCap="round"/>
+</vector>

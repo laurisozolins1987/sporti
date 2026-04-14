@@ -1,0 +1,27 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Pigeon pose -->
+    <path android:pathData="M80,60m-10,0a10,10 0,1 1,20 0a10,10 0,1 1,-20 0"
+        android:fillColor="#AB47BC"/>
+    <!-- Upper body upright -->
+    <path android:pathData="M80,70L85,105"
+        android:strokeColor="#AB47BC" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Arms on ground -->
+    <path android:pathData="M82,82L65,95"
+        android:strokeColor="#AB47BC" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <path android:pathData="M82,82L100,92"
+        android:strokeColor="#AB47BC" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <!-- Front leg bent on ground -->
+    <path android:pathData="M85,105L110,108L125,105"
+        android:strokeColor="#AB47BC" android:strokeWidth="5" android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+    <!-- Back leg extended -->
+    <path android:pathData="M85,105L55,112L40,108"
+        android:strokeColor="#AB47BC" android:strokeWidth="5" android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+    <path android:pathData="M30,115L155,115"
+        android:strokeColor="#CE93D8" android:strokeWidth="2" android:strokeLineCap="round"/>
+</vector>

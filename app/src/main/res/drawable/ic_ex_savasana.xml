@@ -1,0 +1,29 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Person lying flat, relaxed -->
+    <path android:pathData="M45,98m-10,0a10,10 0,1 1,20 0a10,10 0,1 1,-20 0"
+        android:fillColor="#7E57C2"/>
+    <!-- Body lying flat -->
+    <path android:pathData="M55,100L140,100"
+        android:strokeColor="#7E57C2" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Arms out relaxed -->
+    <path android:pathData="M75,100L70,80"
+        android:strokeColor="#7E57C2" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <path android:pathData="M115,100L120,80"
+        android:strokeColor="#7E57C2" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <!-- Legs relaxed open -->
+    <path android:pathData="M140,100L155,115"
+        android:strokeColor="#7E57C2" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <path android:pathData="M140,100L155,85"
+        android:strokeColor="#7E57C2" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Ground -->
+    <path android:pathData="M30,107L175,107"
+        android:strokeColor="#B39DDB" android:strokeWidth="2" android:strokeLineCap="round"/>
+    <!-- Zzz -->
+    <path android:pathData="M50,75L60,75L50,65L60,65"
+        android:strokeColor="#D1C4E9" android:strokeWidth="2" android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+</vector>

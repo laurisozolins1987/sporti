@@ -1,0 +1,29 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Head -->
+    <path android:pathData="M90,48m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0"
+        android:fillColor="#26C6DA"/>
+    <!-- Body leaning forward -->
+    <path android:pathData="M90,60L95,110"
+        android:strokeColor="#26C6DA" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Arms on hips -->
+    <path android:pathData="M92,78L78,88"
+        android:strokeColor="#26C6DA" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <path android:pathData="M92,78L108,88"
+        android:strokeColor="#26C6DA" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <!-- Front leg bent -->
+    <path android:pathData="M95,110L75,130L75,160"
+        android:strokeColor="#26C6DA" android:strokeWidth="5" android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+    <!-- Back leg extended -->
+    <path android:pathData="M95,110L125,125L135,155"
+        android:strokeColor="#26C6DA" android:strokeWidth="5" android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+    <!-- 90 degree indicator -->
+    <path android:pathData="M75,130L85,130L85,120"
+        android:strokeColor="#80DEEA" android:strokeWidth="2" android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+</vector>

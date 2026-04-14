@@ -1,0 +1,32 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Russian twists: seated with rotation -->
+    <path android:pathData="M100,55m-10,0a10,10 0,1 1,20 0a10,10 0,1 1,-20 0"
+        android:fillColor="#FFA726"/>
+    <!-- Body reclined -->
+    <path android:pathData="M100,65L110,105"
+        android:strokeColor="#FFA726" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Arms extended with twist -->
+    <path android:pathData="M105,82L70,75"
+        android:strokeColor="#FFA726" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <!-- Legs bent, feet off ground -->
+    <path android:pathData="M110,105L95,115L85,100"
+        android:strokeColor="#FFA726" android:strokeWidth="5" android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+    <!-- Rotation arrow -->
+    <path android:pathData="M60,75 Q55,90 75,95"
+        android:strokeColor="#FFCC80" android:strokeWidth="3" android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+    <path android:pathData="M75,95L70,88"
+        android:strokeColor="#FFCC80" android:strokeWidth="3" android:strokeLineCap="round"/>
+    <path android:pathData="M140,75 Q145,90 125,95"
+        android:strokeColor="#FFCC80" android:strokeWidth="3" android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+    <path android:pathData="M125,95L130,88"
+        android:strokeColor="#FFCC80" android:strokeWidth="3" android:strokeLineCap="round"/>
+    <path android:pathData="M60,120L150,120"
+        android:strokeColor="#FFB74D" android:strokeWidth="2" android:strokeLineCap="round"/>
+</vector>

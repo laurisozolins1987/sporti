@@ -1,0 +1,27 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Person lying on back doing bicycle -->
+    <path android:pathData="M140,95m-10,0a10,10 0,1 1,20 0a10,10 0,1 1,-20 0"
+        android:fillColor="#FFA726"/>
+    <path android:pathData="M132,95L80,95"
+        android:strokeColor="#FFA726" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Hands behind head -->
+    <path android:pathData="M125,92L140,82"
+        android:strokeColor="#FFA726" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <path android:pathData="M125,98L140,108"
+        android:strokeColor="#FFA726" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <!-- Legs cycling motion -->
+    <path android:pathData="M80,95L60,80"
+        android:strokeColor="#FFA726" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <path android:pathData="M80,95L65,110L55,105"
+        android:strokeColor="#FFA726" android:strokeWidth="5" android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+    <!-- Rotation arrows -->
+    <path android:pathData="M55,90m-15,0a15,15 0,1 1,30 0a15,15 0,1 1,-30 0"
+        android:strokeColor="#FFCC80" android:strokeWidth="2" android:fillColor="#00000000"/>
+    <path android:pathData="M45,118L145,118"
+        android:strokeColor="#FFB74D" android:strokeWidth="2" android:strokeLineCap="round"/>
+</vector>

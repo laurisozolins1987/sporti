@@ -1,0 +1,27 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Warrior I - front lunge with arms up -->
+    <path android:pathData="M100,30m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0"
+        android:fillColor="#AB47BC"/>
+    <path android:pathData="M100,42L100,100"
+        android:strokeColor="#AB47BC" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Arms reaching up -->
+    <path android:pathData="M100,58L88,35"
+        android:strokeColor="#AB47BC" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <path android:pathData="M100,58L112,35"
+        android:strokeColor="#AB47BC" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <!-- Front leg bent -->
+    <path android:pathData="M100,100L75,120L75,155"
+        android:strokeColor="#AB47BC" android:strokeWidth="5" android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+    <!-- Back leg straight -->
+    <path android:pathData="M100,100L135,130L145,155"
+        android:strokeColor="#AB47BC" android:strokeWidth="5" android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+    <!-- Ground -->
+    <path android:pathData="M55,157L165,157"
+        android:strokeColor="#CE93D8" android:strokeWidth="2" android:strokeLineCap="round"/>
+</vector>

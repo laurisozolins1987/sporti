@@ -1,0 +1,34 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Head -->
+    <path android:pathData="M100,50m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0"
+        android:fillColor="#42A5F5"/>
+    <!-- Body -->
+    <path android:pathData="M100,62L100,115"
+        android:strokeColor="#42A5F5" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Arms extended out with circles -->
+    <path android:pathData="M100,80L60,75"
+        android:strokeColor="#42A5F5" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <path android:pathData="M100,80L140,75"
+        android:strokeColor="#42A5F5" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <!-- Legs -->
+    <path android:pathData="M100,115L80,155"
+        android:strokeColor="#42A5F5" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <path android:pathData="M100,115L120,155"
+        android:strokeColor="#42A5F5" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Circular arrows at hands -->
+    <path android:pathData="M60,75m-18,0a18,18 0,1 1,36 0a18,18 0,1 1,-36 0"
+        android:strokeColor="#90CAF9" android:strokeWidth="2.5"
+        android:fillColor="#00000000"/>
+    <path android:pathData="M140,75m-18,0a18,18 0,1 1,36 0a18,18 0,1 1,-36 0"
+        android:strokeColor="#90CAF9" android:strokeWidth="2.5"
+        android:fillColor="#00000000"/>
+    <!-- Arrow tips -->
+    <path android:pathData="M60,57L55,60L63,60"
+        android:strokeColor="#90CAF9" android:strokeWidth="2" android:strokeLineCap="round"/>
+    <path android:pathData="M140,57L135,60L143,60"
+        android:strokeColor="#90CAF9" android:strokeWidth="2" android:strokeLineCap="round"/>
+</vector>

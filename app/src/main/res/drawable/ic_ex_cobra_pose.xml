@@ -1,0 +1,32 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Cobra pose: lying face down, arms pushing up -->
+    <!-- Upper body arched up -->
+    <path android:pathData="M75,80m-10,0a10,10 0,1 1,20 0a10,10 0,1 1,-20 0"
+        android:fillColor="#AB47BC"/>
+    <!-- Back arched -->
+    <path android:pathData="M80,88 Q100,95 130,120"
+        android:strokeColor="#AB47BC" android:strokeWidth="5" android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+    <!-- Legs on ground -->
+    <path android:pathData="M130,120L165,125"
+        android:strokeColor="#AB47BC" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Arms pushing -->
+    <path android:pathData="M82,90L82,125"
+        android:strokeColor="#AB47BC" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <path android:pathData="M95,98L95,125"
+        android:strokeColor="#AB47BC" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <!-- Ground -->
+    <path android:pathData="M40,127L175,127"
+        android:strokeColor="#CE93D8" android:strokeWidth="2" android:strokeLineCap="round"/>
+    <!-- Up arrow -->
+    <path android:pathData="M75,70L75,55"
+        android:strokeColor="#E1BEE7" android:strokeWidth="3" android:strokeLineCap="round"/>
+    <path android:pathData="M75,55L70,62"
+        android:strokeColor="#E1BEE7" android:strokeWidth="3" android:strokeLineCap="round"/>
+    <path android:pathData="M75,55L80,62"
+        android:strokeColor="#E1BEE7" android:strokeWidth="3" android:strokeLineCap="round"/>
+</vector>

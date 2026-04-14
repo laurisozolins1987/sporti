@@ -1,0 +1,35 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Boxing footwork: shuffling stance -->
+    <path android:pathData="M100,42m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0"
+        android:fillColor="#FF7043"/>
+    <path android:pathData="M100,54L100,100"
+        android:strokeColor="#FF7043" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Guard position -->
+    <path android:pathData="M100,72L88,65"
+        android:strokeColor="#FF7043" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <path android:pathData="M100,72L112,65"
+        android:strokeColor="#FF7043" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <!-- Feet in boxing stance -->
+    <path android:pathData="M100,100L82,140"
+        android:strokeColor="#FF7043" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <path android:pathData="M100,100L118,140"
+        android:strokeColor="#FF7043" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Footwork arrows -->
+    <path android:pathData="M70,148L55,148"
+        android:strokeColor="#FFAB91" android:strokeWidth="3" android:strokeLineCap="round"/>
+    <path android:pathData="M55,148L60,143"
+        android:strokeColor="#FFAB91" android:strokeWidth="3" android:strokeLineCap="round"/>
+    <path android:pathData="M130,148L145,148"
+        android:strokeColor="#FFAB91" android:strokeWidth="3" android:strokeLineCap="round"/>
+    <path android:pathData="M145,148L140,143"
+        android:strokeColor="#FFAB91" android:strokeWidth="3" android:strokeLineCap="round"/>
+    <!-- Forward/back arrows -->
+    <path android:pathData="M100,155L100,168"
+        android:strokeColor="#FFAB91" android:strokeWidth="3" android:strokeLineCap="round"/>
+    <path android:pathData="M100,168L95,162"
+        android:strokeColor="#FFAB91" android:strokeWidth="3" android:strokeLineCap="round"/>
+</vector>

@@ -1,0 +1,32 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Person jogging -->
+    <!-- Head -->
+    <path android:pathData="M90,42m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0"
+        android:fillColor="#42A5F5"/>
+    <!-- Body slightly leaning -->
+    <path android:pathData="M90,54L95,108"
+        android:strokeColor="#42A5F5" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Arms -->
+    <path android:pathData="M92,72L75,60"
+        android:strokeColor="#42A5F5" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <path android:pathData="M92,72L110,82"
+        android:strokeColor="#42A5F5" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <!-- Legs -->
+    <path android:pathData="M95,108L75,135L70,155"
+        android:strokeColor="#42A5F5" android:strokeWidth="5" android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+    <path android:pathData="M95,108L115,130L120,155"
+        android:strokeColor="#42A5F5" android:strokeWidth="5" android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+    <!-- Speed lines -->
+    <path android:pathData="M130,55L150,55"
+        android:strokeColor="#90CAF9" android:strokeWidth="2.5" android:strokeLineCap="round"/>
+    <path android:pathData="M135,70L155,70"
+        android:strokeColor="#90CAF9" android:strokeWidth="2" android:strokeLineCap="round"/>
+    <path android:pathData="M128,85L148,85"
+        android:strokeColor="#90CAF9" android:strokeWidth="2.5" android:strokeLineCap="round"/>
+</vector>

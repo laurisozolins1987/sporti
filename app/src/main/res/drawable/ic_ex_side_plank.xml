@@ -1,0 +1,26 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Side plank -->
+    <path android:pathData="M65,65m-10,0a10,10 0,1 1,20 0a10,10 0,1 1,-20 0"
+        android:fillColor="#FFA726"/>
+    <!-- Body diagonal -->
+    <path android:pathData="M70,73L145,110"
+        android:strokeColor="#FFA726" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Supporting arm -->
+    <path android:pathData="M72,76L72,120"
+        android:strokeColor="#FFA726" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <!-- Top arm up -->
+    <path android:pathData="M85,82L80,55"
+        android:strokeColor="#FFA726" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <!-- Feet stacked -->
+    <path android:pathData="M145,110L150,120"
+        android:strokeColor="#FFA726" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <!-- Alignment line -->
+    <path android:pathData="M65,55L155,120"
+        android:strokeColor="#FFCC80" android:strokeWidth="1.5"/>
+    <path android:pathData="M50,122L165,122"
+        android:strokeColor="#FFB74D" android:strokeWidth="2" android:strokeLineCap="round"/>
+</vector>

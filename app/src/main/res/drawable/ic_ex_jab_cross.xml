@@ -1,0 +1,34 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Boxing jab-cross -->
+    <path android:pathData="M100,45m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0"
+        android:fillColor="#FF7043"/>
+    <path android:pathData="M100,57L100,110"
+        android:strokeColor="#FF7043" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Jab arm extended forward -->
+    <path android:pathData="M100,75L55,65"
+        android:strokeColor="#FF7043" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Glove -->
+    <path android:pathData="M55,65m-8,0a8,8 0,1 1,16 0a8,8 0,1 1,-16 0"
+        android:fillColor="#FF5722"/>
+    <!-- Rear hand guard -->
+    <path android:pathData="M100,75L115,70"
+        android:strokeColor="#FF7043" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <path android:pathData="M115,70m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0"
+        android:fillColor="#FF5722"/>
+    <!-- Legs in stance -->
+    <path android:pathData="M100,110L85,145"
+        android:strokeColor="#FF7043" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <path android:pathData="M100,110L115,145"
+        android:strokeColor="#FF7043" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Impact lines -->
+    <path android:pathData="M40,58L30,55"
+        android:strokeColor="#FFAB91" android:strokeWidth="3" android:strokeLineCap="round"/>
+    <path android:pathData="M40,65L28,65"
+        android:strokeColor="#FFAB91" android:strokeWidth="3" android:strokeLineCap="round"/>
+    <path android:pathData="M40,72L30,75"
+        android:strokeColor="#FFAB91" android:strokeWidth="3" android:strokeLineCap="round"/>
+</vector>

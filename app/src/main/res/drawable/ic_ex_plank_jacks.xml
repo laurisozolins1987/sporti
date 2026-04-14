@@ -1,0 +1,25 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Plank jacks: plank with legs apart -->
+    <path android:pathData="M55,75m-10,0a10,10 0,1 1,20 0a10,10 0,1 1,-20 0"
+        android:fillColor="#EF5350"/>
+    <path android:pathData="M63,80L145,90"
+        android:strokeColor="#EF5350" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <path android:pathData="M68,82L68,115"
+        android:strokeColor="#EF5350" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <!-- Legs spread apart -->
+    <path android:pathData="M145,90L160,115"
+        android:strokeColor="#EF5350" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <path android:pathData="M145,90L130,115"
+        android:strokeColor="#EF5350" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Spread arrows -->
+    <path android:pathData="M125,120L115,120"
+        android:strokeColor="#FF8A80" android:strokeWidth="3" android:strokeLineCap="round"/>
+    <path android:pathData="M165,120L175,120"
+        android:strokeColor="#FF8A80" android:strokeWidth="3" android:strokeLineCap="round"/>
+    <path android:pathData="M50,117L175,117"
+        android:strokeColor="#EF9A9A" android:strokeWidth="2" android:strokeLineCap="round"/>
+</vector>

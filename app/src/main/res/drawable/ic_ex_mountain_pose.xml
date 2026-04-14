@@ -1,0 +1,25 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Person standing tall, arms at sides -->
+    <path android:pathData="M100,42m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0"
+        android:fillColor="#AB47BC"/>
+    <path android:pathData="M100,54L100,115"
+        android:strokeColor="#AB47BC" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <path android:pathData="M100,78L85,100"
+        android:strokeColor="#AB47BC" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <path android:pathData="M100,78L115,100"
+        android:strokeColor="#AB47BC" android:strokeWidth="4" android:strokeLineCap="round"/>
+    <path android:pathData="M100,115L92,155"
+        android:strokeColor="#AB47BC" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <path android:pathData="M100,115L108,155"
+        android:strokeColor="#AB47BC" android:strokeWidth="5" android:strokeLineCap="round"/>
+    <!-- Alignment line -->
+    <path android:pathData="M100,30L100,165"
+        android:strokeColor="#E1BEE7" android:strokeWidth="1.5"/>
+    <!-- Ground -->
+    <path android:pathData="M70,157L130,157"
+        android:strokeColor="#CE93D8" android:strokeWidth="2" android:strokeLineCap="round"/>
+</vector>

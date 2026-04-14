@@ -8,10 +8,13 @@ import androidx.compose.animation.fadeOut
 import androidx.compose.animation.slideInVertically
 import androidx.compose.animation.slideOutVertically
 import androidx.compose.animation.togetherWith
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.Check
@@ -24,6 +27,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.ColorFilter
+import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
@@ -194,9 +200,12 @@ fun WorkoutScreen(
                 modifier = Modifier
                     .fillMaxSize()
                     .padding(padding)
-                    .padding(24.dp),
+                    .padding(horizontal = 24.dp)
+                    .verticalScroll(rememberScrollState()),
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
+                Spacer(modifier = Modifier.height(8.dp))
+
                 // Progress indicator
                 Row(
                     modifier = Modifier.fillMaxWidth(),
@@ -225,17 +234,9 @@ fun WorkoutScreen(
                     color = MaterialTheme.colorScheme.onSurfaceVariant
                 )
 
-                Spacer(modifier = Modifier.weight(0.5f))
-
-                // Sport icon
-                Text(
-                    text = sport?.icon ?: "🏋️",
-                    fontSize = 48.sp
-                )
-
                 Spacer(modifier = Modifier.height(16.dp))
 
-                // Exercise name with animation
+                // Exercise illustration + name + description card
                 AnimatedContent(
                     targetState = currentExerciseIndex,
                     transitionSpec = {
@@ -244,35 +245,86 @@ fun WorkoutScreen(
                         )
                     }
                 ) { index ->
-                    Text(
-                        text = if (exercises.isNotEmpty()) stringResource(exercises[index].nameRes) else "",
-                        style = MaterialTheme.typography.headlineMedium,
-                        color = MaterialTheme.colorScheme.onBackground,
-                        fontWeight = FontWeight.Black,
-                        textAlign = TextAlign.Center
-                    )
+                    val exercise = exercises[index]
+                    Column(
+                        horizontalAlignment = Alignment.CenterHorizontally
+                    ) {
+                        // Exercise illustration
+                        if (exercise.illustrationRes != 0) {
+                            Box(
+                                modifier = Modifier
+                                    .size(120.dp)
+                                    .clip(RoundedCornerShape(24.dp))
+                                    .background(sportColor.copy(alpha = 0.08f)),
+                                contentAlignment = Alignment.Center
+                            ) {
+                                Image(
+                                    painter = painterResource(exercise.illustrationRes),
+                                    contentDescription = stringResource(exercise.nameRes),
+                                    modifier = Modifier.size(88.dp),
+                                    contentScale = ContentScale.Fit,
+                                    colorFilter = ColorFilter.tint(sportColor)
+                                )
+                            }
+                        } else {
+                            Text(
+                                text = sport?.icon ?: "🏋️",
+                                fontSize = 48.sp
+                            )
+                        }
+
+                        Spacer(modifier = Modifier.height(12.dp))
+
+                        // Exercise name
+                        Text(
+                            text = stringResource(exercise.nameRes),
+                            style = MaterialTheme.typography.headlineSmall,
+                            color = MaterialTheme.colorScheme.onBackground,
+                            fontWeight = FontWeight.Black,
+                            textAlign = TextAlign.Center
+                        )
+
+                        // Exercise description
+                        if (exercise.descriptionRes != 0) {
+                            Spacer(modifier = Modifier.height(8.dp))
+                            Card(
+                                shape = RoundedCornerShape(12.dp),
+                                colors = CardDefaults.cardColors(
+                                    containerColor = sportColor.copy(alpha = 0.06f)
+                                )
+                            ) {
+                                Text(
+                                    text = stringResource(exercise.descriptionRes),
+                                    style = MaterialTheme.typography.bodyMedium,
+                                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                                    textAlign = TextAlign.Center,
+                                    modifier = Modifier.padding(horizontal = 16.dp, vertical = 12.dp)
+                                )
+                            }
+                        }
+                    }
                 }
 
-                Spacer(modifier = Modifier.height(40.dp))
+                Spacer(modifier = Modifier.height(24.dp))
 
                 // Timer circle
                 Box(contentAlignment = Alignment.Center) {
                     CircularProgressIndicator(
                         progress = { progress },
-                        modifier = Modifier.size(200.dp),
+                        modifier = Modifier.size(160.dp),
                         color = sportColor,
                         trackColor = sportColor.copy(alpha = 0.12f),
                         strokeWidth = 8.dp
                     )
                     Text(
                         text = timeLeft.toString(),
-                        fontSize = 72.sp,
+                        fontSize = 56.sp,
                         fontWeight = FontWeight.Black,
                         color = MaterialTheme.colorScheme.onBackground
                     )
                 }
 
-                Spacer(modifier = Modifier.weight(1f))
+                Spacer(modifier = Modifier.height(24.dp))
 
                 // Controls
                 Row(

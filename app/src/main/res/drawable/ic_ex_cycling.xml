@@ -1,0 +1,25 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Cycling motion -->
+    <!-- Wheel -->
+    <path android:pathData="M100,100m-40,0a40,40 0,1 1,80 0a40,40 0,1 1,-80 0"
+        android:strokeColor="#5C6BC0" android:strokeWidth="4" android:fillColor="#00000000"/>
+    <path android:pathData="M100,100m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0"
+        android:fillColor="#5C6BC0"/>
+    <!-- Seat -->
+    <path android:pathData="M95,60L105,60"
+        android:strokeColor="#3F51B5" android:strokeWidth="3" android:strokeLineCap="round"/>
+    <path android:pathData="M100,60L100,100"
+        android:strokeColor="#3F51B5" android:strokeWidth="3" android:strokeLineCap="round"/>
+    <!-- Pedal motion -->
+    <path android:pathData="M100,100L115,115"
+        android:strokeColor="#5C6BC0" android:strokeWidth="3" android:strokeLineCap="round"/>
+    <path android:pathData="M100,100L85,85"
+        android:strokeColor="#5C6BC0" android:strokeWidth="3" android:strokeLineCap="round"/>
+    <!-- Motion circle -->
+    <path android:pathData="M100,100m-20,0a20,20 0,1 1,40 0a20,20 0,1 1,-40 0"
+        android:strokeColor="#9FA8DA" android:strokeWidth="1.5" android:fillColor="#00000000"/>
+</vector>
