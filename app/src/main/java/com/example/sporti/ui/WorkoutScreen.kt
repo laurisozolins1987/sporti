@@ -37,6 +37,7 @@ import kotlinx.coroutines.delay
 @Composable
 fun WorkoutScreen(
     workoutType: String,
+    rewardsViewModel: RewardsViewModel,
     onBack: () -> Unit
 ) {
     val sport = remember { SportsRepository.getSportById(workoutType) }
@@ -49,6 +50,7 @@ fun WorkoutScreen(
     var timeLeft by remember(currentExerciseIndex) { mutableLongStateOf(totalDuration.toLong()) }
     var isRunning by remember { mutableStateOf(false) }
     var isCompleted by remember { mutableStateOf(false) }
+    var pointsEarned by remember { mutableIntStateOf(0) }
 
     val progress by animateFloatAsState(
         targetValue = if (totalDuration > 0) timeLeft.toFloat() / totalDuration else 0f,
@@ -65,6 +67,17 @@ fun WorkoutScreen(
                 currentExerciseIndex++
             } else {
                 isCompleted = true
+                val totalDurationAll = exercises.sumOf { it.durationSeconds }
+                rewardsViewModel.logWorkout(
+                    sportId = workoutType,
+                    durationSeconds = totalDurationAll,
+                    exercisesCompleted = exercises.size,
+                    totalExercises = exercises.size
+                )
+                pointsEarned = com.example.sporti.data.RewardsRepository.calculatePoints(
+                    exercises.size, exercises.size,
+                    rewardsViewModel.currentStreak.value
+                )
             }
         }
     }
@@ -129,6 +142,37 @@ fun WorkoutScreen(
                     style = MaterialTheme.typography.bodyLarge,
                     color = MaterialTheme.colorScheme.onSurfaceVariant
                 )
+                Spacer(modifier = Modifier.height(24.dp))
+
+                // Points earned card
+                Card(
+                    shape = RoundedCornerShape(16.dp),
+                    colors = CardDefaults.cardColors(
+                        containerColor = Color(0xFFFFA726).copy(alpha = 0.12f)
+                    )
+                ) {
+                    Row(
+                        modifier = Modifier.padding(horizontal = 24.dp, vertical = 16.dp),
+                        verticalAlignment = Alignment.CenterVertically
+                    ) {
+                        Text(text = "⭐", fontSize = 28.sp)
+                        Spacer(modifier = Modifier.width(12.dp))
+                        Column {
+                            Text(
+                                text = "+$pointsEarned ${stringResource(R.string.points_short)}",
+                                style = MaterialTheme.typography.titleLarge,
+                                fontWeight = FontWeight.Black,
+                                color = Color(0xFFFFA726)
+                            )
+                            Text(
+                                text = stringResource(R.string.points_earned_desc),
+                                style = MaterialTheme.typography.bodySmall,
+                                color = MaterialTheme.colorScheme.onSurfaceVariant
+                            )
+                        }
+                    }
+                }
+
                 Spacer(modifier = Modifier.height(32.dp))
                 Button(
                     onClick = onBack,

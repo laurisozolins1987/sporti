@@ -1,0 +1,56 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Background circle -->
+    <path
+        android:pathData="M60,60m-55,0a55,55 0,1 1,110 0a55,55 0,1 1,-110 0"
+        android:fillColor="#F3E5F5"/>
+    <!-- Yoga mat -->
+    <path
+        android:pathData="M25,95L95,95"
+        android:strokeColor="#CE93D8"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"/>
+    <!-- Person in tree pose -->
+    <path
+        android:pathData="M60,35m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0"
+        android:fillColor="#AB47BC"/>
+    <path
+        android:pathData="M60,40L60,72"
+        android:strokeColor="#AB47BC"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"/>
+    <!-- Arms up -->
+    <path
+        android:pathData="M60,50L45,38"
+        android:strokeColor="#AB47BC"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="M60,50L75,38"
+        android:strokeColor="#AB47BC"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"/>
+    <!-- Standing leg -->
+    <path
+        android:pathData="M60,72L60,95"
+        android:strokeColor="#AB47BC"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"/>
+    <!-- Bent leg (tree pose) -->
+    <path
+        android:pathData="M60,78L72,72L66,62"
+        android:strokeColor="#AB47BC"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+    <!-- Lotus petals decoration -->
+    <path
+        android:pathData="M85,80 Q90,70 95,80 Q90,85 85,80Z"
+        android:fillColor="#E1BEE7"/>
+    <path
+        android:pathData="M90,75 Q95,65 100,75 Q95,80 90,75Z"
+        android:fillColor="#E1BEE7"/>
+</vector>

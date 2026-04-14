@@ -1,0 +1,48 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Background circle -->
+    <path
+        android:pathData="M60,60m-55,0a55,55 0,1 1,110 0a55,55 0,1 1,-110 0"
+        android:fillColor="#E0F7FA"/>
+    <!-- Person doing split stretch -->
+    <path
+        android:pathData="M60,38m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0"
+        android:fillColor="#26C6DA"/>
+    <path
+        android:pathData="M60,43L60,65"
+        android:strokeColor="#26C6DA"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"/>
+    <!-- Arms stretching wide -->
+    <path
+        android:pathData="M60,50L35,45"
+        android:strokeColor="#26C6DA"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="M60,50L85,45"
+        android:strokeColor="#26C6DA"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"/>
+    <!-- Legs in wide stance -->
+    <path
+        android:pathData="M60,65L30,90"
+        android:strokeColor="#26C6DA"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="M60,65L90,90"
+        android:strokeColor="#26C6DA"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"/>
+    <!-- Flexibility arcs -->
+    <path
+        android:pathData="M30,40 Q60,25 90,40"
+        android:strokeColor="#80DEEA"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+</vector>

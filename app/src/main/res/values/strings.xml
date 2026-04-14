@@ -133,4 +133,71 @@
     <string name="ex_treading_water">Treading Water</string>
     <string name="ex_cool_down_swim">Cool-down Swim</string>
     <string name="workout_morning_title">Morning Routine</string>
+
+    <!-- Rewards System -->
+    <string name="rewards_title">Rewards &amp; Achievements</string>
+    <string name="rewards_banner_title">Your Rewards</string>
+    <string name="total_workouts_label">Workouts</string>
+    <string name="day_streak_label">Day Streak</string>
+    <string name="points_label">Points</string>
+    <string name="points_short">pts</string>
+    <string name="points_earned_desc">Points earned for this workout!</string>
+    <string name="achievements_title">Achievements</string>
+    <string name="level_label">Level %1$d</string>
+    <string name="streak_bonus_title">Streak Bonus Active!</string>
+    <string name="streak_bonus_desc">+%1$d bonus points per workout</string>
+
+    <!-- Level names -->
+    <string name="level_newbie">Newbie</string>
+    <string name="level_beginner">Beginner</string>
+    <string name="level_active">Active</string>
+    <string name="level_dedicated">Dedicated</string>
+    <string name="level_intermediate">Intermediate</string>
+    <string name="level_advanced">Advanced</string>
+    <string name="level_expert">Expert</string>
+    <string name="level_master">Master</string>
+    <string name="level_champion">Champion</string>
+    <string name="level_legend">Legend</string>
+
+    <!-- Achievements - Workouts -->
+    <string name="ach_first_workout">First Steps</string>
+    <string name="ach_first_workout_desc">Complete your first workout</string>
+    <string name="ach_five_workouts">Getting Started</string>
+    <string name="ach_five_workouts_desc">Complete 5 workouts</string>
+    <string name="ach_ten_workouts">On Fire</string>
+    <string name="ach_ten_workouts_desc">Complete 10 workouts</string>
+    <string name="ach_25_workouts">Workout Warrior</string>
+    <string name="ach_25_workouts_desc">Complete 25 workouts</string>
+    <string name="ach_50_workouts">Half Century</string>
+    <string name="ach_50_workouts_desc">Complete 50 workouts</string>
+    <string name="ach_100_workouts">Century Club</string>
+    <string name="ach_100_workouts_desc">Complete 100 workouts</string>
+
+    <!-- Achievements - Points -->
+    <string name="ach_500_points">Point Collector</string>
+    <string name="ach_500_points_desc">Earn 500 points</string>
+    <string name="ach_2000_points">Point Master</string>
+    <string name="ach_2000_points_desc">Earn 2,000 points</string>
+    <string name="ach_5000_points">Point Legend</string>
+    <string name="ach_5000_points_desc">Earn 5,000 points</string>
+    <string name="ach_10000_points">Point God</string>
+    <string name="ach_10000_points_desc">Earn 10,000 points</string>
+
+    <!-- Achievements - Streaks -->
+    <string name="ach_streak_3">Warming Up</string>
+    <string name="ach_streak_3_desc">Maintain a 3-day streak</string>
+    <string name="ach_streak_7">Week Warrior</string>
+    <string name="ach_streak_7_desc">Maintain a 7-day streak</string>
+    <string name="ach_streak_14">Two Week Titan</string>
+    <string name="ach_streak_14_desc">Maintain a 14-day streak</string>
+    <string name="ach_streak_30">Monthly Monster</string>
+    <string name="ach_streak_30_desc">Maintain a 30-day streak</string>
+
+    <!-- Achievements - Variety -->
+    <string name="ach_explorer_3">Explorer</string>
+    <string name="ach_explorer_3_desc">Try 3 different workout types</string>
+    <string name="ach_explorer_6">Adventurer</string>
+    <string name="ach_explorer_6_desc">Try 6 different workout types</string>
+    <string name="ach_explorer_12">Master of All</string>
+    <string name="ach_explorer_12_desc">Try all 12 workout types</string>
 </resources>

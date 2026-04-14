@@ -38,6 +38,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.sporti.R
 import com.example.sporti.data.SportsRepository
+import com.example.sporti.data.RewardsRepository
 import com.example.sporti.data.SportType
 import com.example.sporti.data.WeightEntry
 
@@ -45,9 +46,14 @@ import com.example.sporti.data.WeightEntry
 @Composable
 fun DashboardScreen(
     viewModel: MainViewModel,
-    onStartWorkout: (String) -> Unit
+    rewardsViewModel: RewardsViewModel,
+    onStartWorkout: (String) -> Unit,
+    onOpenRewards: () -> Unit
 ) {
     val weightEntries by viewModel.weightEntries.collectAsState()
+    val totalWorkouts by rewardsViewModel.totalWorkouts.collectAsState()
+    val totalPoints by rewardsViewModel.totalPoints.collectAsState()
+    val currentStreak by rewardsViewModel.currentStreak.collectAsState()
     var showSheet by remember { mutableStateOf(false) }
     val sports = remember { SportsRepository.getAllSports() }
 
@@ -87,8 +93,19 @@ fun DashboardScreen(
             // Quick Stats Bar
             item {
                 QuickStatsBar(
-                    totalSports = sports.size,
+                    totalWorkouts = totalWorkouts,
                     latestWeight = weightEntries.firstOrNull()?.weight,
+                    streak = currentStreak,
+                    modifier = Modifier.padding(horizontal = 24.dp)
+                )
+            }
+
+            // Rewards banner
+            item {
+                RewardsBanner(
+                    totalPoints = totalPoints,
+                    streak = currentStreak,
+                    onClick = onOpenRewards,
                     modifier = Modifier.padding(horizontal = 24.dp)
                 )
             }
@@ -161,14 +178,14 @@ fun DashboardScreen(
 }
 
 @Composable
-fun QuickStatsBar(totalSports: Int, latestWeight: Float?, modifier: Modifier = Modifier) {
+fun QuickStatsBar(totalWorkouts: Int, latestWeight: Float?, streak: Int, modifier: Modifier = Modifier) {
     Row(
         modifier = modifier.fillMaxWidth(),
         horizontalArrangement = Arrangement.spacedBy(12.dp)
     ) {
         StatChip(
             label = stringResource(R.string.stat_workouts),
-            value = "$totalSports",
+            value = "$totalWorkouts",
             color = Color(0xFF42A5F5),
             modifier = Modifier.weight(1f)
         )
@@ -180,7 +197,7 @@ fun QuickStatsBar(totalSports: Int, latestWeight: Float?, modifier: Modifier = M
         )
         StatChip(
             label = stringResource(R.string.stat_streak),
-            value = "0",
+            value = if (streak > 0) "$streak 🔥" else "0",
             color = Color(0xFFFF7043),
             modifier = Modifier.weight(1f)
         )
@@ -510,6 +527,72 @@ fun WeightInputDialog(onDismiss: () -> Unit, onSave: (Float) -> Unit) {
                 Text(
                     text = stringResource(R.string.save),
                     style = MaterialTheme.typography.titleMedium,
+                    fontWeight = FontWeight.Bold
+                )
+            }
+        }
+    }
+}
+
+@Composable
+fun RewardsBanner(
+    totalPoints: Int,
+    streak: Int,
+    onClick: () -> Unit,
+    modifier: Modifier = Modifier
+) {
+    val (level, levelName) = RewardsRepository.getLevel(totalPoints)
+    val interactionSource = remember { MutableInteractionSource() }
+    val isPressed by interactionSource.collectIsPressedAsState()
+    val scale by animateFloatAsState(
+        targetValue = if (isPressed) 0.97f else 1f,
+        animationSpec = spring(stiffness = Spring.StiffnessHigh)
+    )
+
+    Card(
+        modifier = modifier
+            .fillMaxWidth()
+            .scale(scale)
+            .clickable(interactionSource = interactionSource, indication = null) { onClick() },
+        shape = RoundedCornerShape(20.dp),
+        colors = CardDefaults.cardColors(containerColor = Color.Transparent)
+    ) {
+        Box(
+            modifier = Modifier
+                .fillMaxWidth()
+                .background(
+                    Brush.linearGradient(
+                        colors = listOf(Color(0xFF667EEA), Color(0xFF764BA2))
+                    )
+                )
+                .padding(16.dp)
+        ) {
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.SpaceBetween
+            ) {
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    Text(text = "🏆", fontSize = 32.sp)
+                    Spacer(modifier = Modifier.width(12.dp))
+                    Column {
+                        Text(
+                            text = stringResource(R.string.rewards_banner_title),
+                            style = MaterialTheme.typography.titleSmall,
+                            fontWeight = FontWeight.Bold,
+                            color = Color.White
+                        )
+                        Text(
+                            text = stringResource(R.string.level_label, level) + " • $totalPoints ${stringResource(R.string.points_short)}",
+                            style = MaterialTheme.typography.bodySmall,
+                            color = Color.White.copy(alpha = 0.8f)
+                        )
+                    }
+                }
+                Text(
+                    text = "→",
+                    fontSize = 24.sp,
+                    color = Color.White,
                     fontWeight = FontWeight.Bold
                 )
             }

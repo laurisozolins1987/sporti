@@ -1,0 +1,69 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Background circle -->
+    <path
+        android:pathData="M60,60m-55,0a55,55 0,1 1,110 0a55,55 0,1 1,-110 0"
+        android:fillColor="#FFF3E0"/>
+    <!-- Sun rays -->
+    <path
+        android:pathData="M60,20L60,10"
+        android:strokeColor="#FFB74D"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="M88,32L94,26"
+        android:strokeColor="#FFB74D"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="M100,60L110,60"
+        android:strokeColor="#FFB74D"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="M32,32L26,26"
+        android:strokeColor="#FFB74D"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="M20,60L10,60"
+        android:strokeColor="#FFB74D"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"/>
+    <!-- Sun body -->
+    <path
+        android:pathData="M60,45m-20,0a20,20 0,1 1,40 0a20,20 0,1 1,-40 0"
+        android:fillColor="#FFB74D"/>
+    <!-- Person stretching -->
+    <path
+        android:pathData="M60,68m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0"
+        android:fillColor="#5D4037"/>
+    <path
+        android:pathData="M60,72L60,88"
+        android:strokeColor="#5D4037"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="M60,76L45,68"
+        android:strokeColor="#5D4037"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="M60,76L75,68"
+        android:strokeColor="#5D4037"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="M60,88L48,100"
+        android:strokeColor="#5D4037"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="M60,88L72,100"
+        android:strokeColor="#5D4037"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"/>
+</vector>

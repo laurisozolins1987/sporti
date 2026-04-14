@@ -1,0 +1,22 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Background circle -->
+    <path
+        android:pathData="M60,60m-55,0a55,55 0,1 1,110 0a55,55 0,1 1,-110 0"
+        android:fillColor="#FCE4EC"/>
+    <!-- Heart -->
+    <path
+        android:pathData="M60,85 L35,60 Q25,48 35,38 Q45,28 60,42 Q75,28 85,38 Q95,48 85,60 Z"
+        android:fillColor="#EC407A"/>
+    <!-- Heartbeat line -->
+    <path
+        android:pathData="M25,60L40,60L48,45L55,72L62,50L68,60L95,60"
+        android:strokeColor="#F8BBD0"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"/>
+</vector>

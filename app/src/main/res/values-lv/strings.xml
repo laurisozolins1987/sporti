@@ -133,4 +133,71 @@
     <string name="ex_treading_water">Ūdens mīdīšana</string>
     <string name="ex_cool_down_swim">Atdzišanas peldēšana</string>
     <string name="workout_morning_title">Rīta rosme</string>
+
+    <!-- Rewards System -->
+    <string name="rewards_title">Apbalvojumi un sasniegumi</string>
+    <string name="rewards_banner_title">Tavi apbalvojumi</string>
+    <string name="total_workouts_label">Treniņi</string>
+    <string name="day_streak_label">Dienu sērija</string>
+    <string name="points_label">Punkti</string>
+    <string name="points_short">pkt</string>
+    <string name="points_earned_desc">Punkti nopelnīti par šo treniņu!</string>
+    <string name="achievements_title">Sasniegumi</string>
+    <string name="level_label">Līmenis %1$d</string>
+    <string name="streak_bonus_title">Sērijas bonuss aktīvs!</string>
+    <string name="streak_bonus_desc">+%1$d bonusa punkti par treniņu</string>
+
+    <!-- Level names -->
+    <string name="level_newbie">Jaunpienācējs</string>
+    <string name="level_beginner">Iesācējs</string>
+    <string name="level_active">Aktīvs</string>
+    <string name="level_dedicated">Apņēmīgs</string>
+    <string name="level_intermediate">Vidējais</string>
+    <string name="level_advanced">Pieredzējis</string>
+    <string name="level_expert">Eksperts</string>
+    <string name="level_master">Meistars</string>
+    <string name="level_champion">Čempions</string>
+    <string name="level_legend">Leģenda</string>
+
+    <!-- Achievements - Workouts -->
+    <string name="ach_first_workout">Pirmie soļi</string>
+    <string name="ach_first_workout_desc">Pabeidz savu pirmo treniņu</string>
+    <string name="ach_five_workouts">Sākums labs</string>
+    <string name="ach_five_workouts_desc">Pabeidz 5 treniņus</string>
+    <string name="ach_ten_workouts">Iekaisis!</string>
+    <string name="ach_ten_workouts_desc">Pabeidz 10 treniņus</string>
+    <string name="ach_25_workouts">Treniņu karotājs</string>
+    <string name="ach_25_workouts_desc">Pabeidz 25 treniņus</string>
+    <string name="ach_50_workouts">Pusgadsimts</string>
+    <string name="ach_50_workouts_desc">Pabeidz 50 treniņus</string>
+    <string name="ach_100_workouts">Simtnieku klubs</string>
+    <string name="ach_100_workouts_desc">Pabeidz 100 treniņus</string>
+
+    <!-- Achievements - Points -->
+    <string name="ach_500_points">Punktu kolekcionārs</string>
+    <string name="ach_500_points_desc">Nopelni 500 punktus</string>
+    <string name="ach_2000_points">Punktu meistars</string>
+    <string name="ach_2000_points_desc">Nopelni 2000 punktus</string>
+    <string name="ach_5000_points">Punktu leģenda</string>
+    <string name="ach_5000_points_desc">Nopelni 5000 punktus</string>
+    <string name="ach_10000_points">Punktu dievs</string>
+    <string name="ach_10000_points_desc">Nopelni 10 000 punktus</string>
+
+    <!-- Achievements - Streaks -->
+    <string name="ach_streak_3">Iesildīšanās</string>
+    <string name="ach_streak_3_desc">Uzturi 3 dienu sēriju</string>
+    <string name="ach_streak_7">Nedēļas karotājs</string>
+    <string name="ach_streak_7_desc">Uzturi 7 dienu sēriju</string>
+    <string name="ach_streak_14">Divu nedēļu titāns</string>
+    <string name="ach_streak_14_desc">Uzturi 14 dienu sēriju</string>
+    <string name="ach_streak_30">Mēneša monstrs</string>
+    <string name="ach_streak_30_desc">Uzturi 30 dienu sēriju</string>
+
+    <!-- Achievements - Variety -->
+    <string name="ach_explorer_3">Pētnieks</string>
+    <string name="ach_explorer_3_desc">Izmēģini 3 dažādus treniņu veidus</string>
+    <string name="ach_explorer_6">Piedzīvojumu meklētājs</string>
+    <string name="ach_explorer_6_desc">Izmēģini 6 dažādus treniņu veidus</string>
+    <string name="ach_explorer_12">Visu meistars</string>
+    <string name="ach_explorer_12_desc">Izmēģini visus 12 treniņu veidus</string>
 </resources>

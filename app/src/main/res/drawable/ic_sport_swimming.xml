@@ -1,0 +1,67 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Background circle -->
+    <path
+        android:pathData="M60,60m-55,0a55,55 0,1 1,110 0a55,55 0,1 1,-110 0"
+        android:fillColor="#E1F5FE"/>
+    <!-- Water waves -->
+    <path
+        android:pathData="M15,65 Q30,55 45,65 Q60,75 75,65 Q90,55 105,65"
+        android:strokeColor="#29B6F6"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+    <path
+        android:pathData="M15,75 Q30,65 45,75 Q60,85 75,75 Q90,65 105,75"
+        android:strokeColor="#4FC3F7"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+    <path
+        android:pathData="M15,82 Q30,74 45,82 Q60,90 75,82 Q90,74 105,82"
+        android:strokeColor="#81D4FA"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+    <!-- Swimmer -->
+    <path
+        android:pathData="M50,50m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0"
+        android:fillColor="#0288D1"/>
+    <!-- Swimmer body horizontal -->
+    <path
+        android:pathData="M50,54L50,60L70,58"
+        android:strokeColor="#0288D1"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+    <!-- Swimmer arms -->
+    <path
+        android:pathData="M55,56L40,45"
+        android:strokeColor="#0288D1"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="M55,56L45,62"
+        android:strokeColor="#0288D1"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"/>
+    <!-- Splash -->
+    <path
+        android:pathData="M35,42L33,36"
+        android:strokeColor="#4FC3F7"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="M38,40L40,34"
+        android:strokeColor="#4FC3F7"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="M32,44L28,40"
+        android:strokeColor="#4FC3F7"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"/>
+</vector>

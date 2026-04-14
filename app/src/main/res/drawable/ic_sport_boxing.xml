@@ -1,0 +1,33 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Background circle -->
+    <path
+        android:pathData="M60,60m-55,0a55,55 0,1 1,110 0a55,55 0,1 1,-110 0"
+        android:fillColor="#FBE9E7"/>
+    <!-- Boxing glove shape -->
+    <path
+        android:pathData="M40,40 Q35,35 35,50 Q35,75 50,80 Q65,85 75,75 Q85,65 80,50 Q78,40 70,35 Q60,30 50,35 Z"
+        android:fillColor="#FF7043"/>
+    <!-- Glove thumb -->
+    <path
+        android:pathData="M38,48 Q30,45 32,55 Q34,62 40,60"
+        android:fillColor="#FF8A65"/>
+    <!-- Glove lacing -->
+    <path
+        android:pathData="M50,42L70,42"
+        android:strokeColor="#FFAB91"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="M48,50L72,50"
+        android:strokeColor="#FFAB91"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"/>
+    <!-- Impact stars -->
+    <path
+        android:pathData="M85,30L88,25L91,30L96,27L93,32L98,35L93,35L96,40L91,37L88,42L85,37L80,40L83,35L78,32L83,32Z"
+        android:fillColor="#FFA726"/>
+</vector>

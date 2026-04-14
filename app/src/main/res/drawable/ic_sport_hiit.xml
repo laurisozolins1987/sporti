@@ -1,0 +1,24 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Background circle -->
+    <path
+        android:pathData="M60,60m-55,0a55,55 0,1 1,110 0a55,55 0,1 1,-110 0"
+        android:fillColor="#FFEBEE"/>
+    <!-- Fire -->
+    <path
+        android:pathData="M60,20 Q50,40 45,50 Q40,65 50,80 Q55,90 60,92 Q65,90 70,80 Q80,65 75,50 Q70,40 60,20Z"
+        android:fillColor="#EF5350"/>
+    <path
+        android:pathData="M60,40 Q55,50 52,58 Q48,70 55,78 Q58,82 60,83 Q62,82 65,78 Q72,70 68,58 Q65,50 60,40Z"
+        android:fillColor="#FF8A65"/>
+    <path
+        android:pathData="M60,55 Q57,62 56,68 Q55,74 58,76 Q60,78 62,76 Q65,74 64,68 Q63,62 60,55Z"
+        android:fillColor="#FFE082"/>
+    <!-- HIIT text -->
+    <path
+        android:pathData="M60,100m-0,0"
+        android:fillColor="#EF5350"/>
+</vector>
